@@ -1,6 +1,6 @@
 
-<h1>
+<h2>
     <a href="https://novi-povorot.pp.ua">
         Новый поворот
     </a>
-</h1>
+</h2>

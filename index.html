@@ -18,7 +18,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
 	<!-- Number animation -->
     <script>
-       $(".num").counterUp({delay:10,time:1000});
+	    jQuery(document).ready(function($) {
+            $('.num').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
     </script>
 	<!-- css files -->
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->

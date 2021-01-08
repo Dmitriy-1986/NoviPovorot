@@ -209,7 +209,7 @@ li > a:only-child:after { content: ''; }
 /* Media Queries
 --------------------------------------------- */
 
-@media all and (max-width : 991px) {
+@media all and (max-width : 1200px) {
 
 	#logo {
 		display: block;

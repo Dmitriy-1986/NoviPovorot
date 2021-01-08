@@ -352,7 +352,7 @@ li > a:only-child:after { content: ''; }
 
 }
 
-@media all and (max-width : 330px) {
+@media all and (max-width : 1200px) {
 
 	nav ul li {
 		display:block;

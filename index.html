@@ -162,28 +162,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-lg-3 col-6">
 				<div class="counter">
 					<span class="fa fa-smile-o"></span>
-					<div class="timer count-title count-number"><p class="benefits__number">100</p></div>
+					<div class="timer count-title count-number number1" data-max="500">100</div>
 					<p class="count-text text-uppercase">ДОВОЛЬНЫЕ КЛИЕНТЫ</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-6">
 				<div class="counter">
 					<span class="fa fa-ship"></span>
-					<div class="timer count-title count-number"><p class="benefits__number">12</p></div>
+					<div class="timer count-title count-number number2" data-max="12">10</div>
 					<p class="count-text text-uppercase">ТУРЫ И ПУТЕШЕСТВИЯ </p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-6 mt-lg-0 mt-5">
 				<div class="counter">
 					<span class="fa fa-users"></span>
-					<div class="timer count-title count-number"><p class="benefits__number">12</p></div>
+					<div class="timer count-title count-number number3" data-max="10">8</div>
 					<p class="count-text text-uppercase">НАПРАВЛЕНИЯ</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-6 mt-lg-0 mt-5">
 				<div class="counter">
 					<span class="fa fa-gift"></span>
-					<div class="timer count-title count-number"><p class="benefits__number">7</p></div>
+					<div class="timer count-title count-number number4" data-max="7">5</div>
 					<p class="count-text text-uppercase">ЛЕТ ОПЫТА</p>
 				</div>
 			</div>
@@ -502,8 +502,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 	<!-- jQuery CDN -->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-  <script src="./js/jquery.spincrement.min.js"></script>
-  <script src="./js/custom.js"></script>
   
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
@@ -529,6 +527,89 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 	});
-    </script>	
+    </script>
+	
+		<script>
+		var number = document.querySelector('.number'),
+		numberTop = number.getBoundingClientRect().top,
+		start = +number.innerHTML, end = +number.dataset.max;
+
+		window.addEventListener('scroll', function onScroll() {
+			if(window.pageYOffset > numberTop - window.innerHeight / 2) {
+				this.removeEventListener('scroll', onScroll);
+				var interval = setInterval(function() {
+					number.innerHTML = ++start;
+					if(start == end) {
+						clearInterval(interval);
+					}
+				}, 5);
+			}
+		});
+	</script>
+<script>var number1 = document.querySelector('.number1'),
+		number1Top = number1.getBoundingClientRect().top,
+		start1 = +number1.innerHTML, end1 = +number1.dataset.max;
+
+		window.addEventListener('scroll', function onScroll() {
+			if(window.pageYOffset > number1Top - window.innerHeight / 2) {
+				this.removeEventListener('scroll', onScroll);
+				var interval1 = setInterval(function() {
+					number1.innerHTML = ++start1;
+					if(start1 == end1) {
+						clearInterval(interval1);
+					}
+				}, 5);
+			}
+		});
+  </script>
+  <script>var number2 = document.querySelector('.number2'),
+		number2Top = number2.getBoundingClientRect().top,
+		start2 = +number2.innerHTML, end2 = +number2.dataset.max;
+
+		window.addEventListener('scroll', function onScroll() {
+			if(window.pageYOffset > number2Top - window.innerHeight / 2) {
+				this.removeEventListener('scroll', onScroll);
+				var interval2 = setInterval(function() {
+					number2.innerHTML = ++start2;
+					if(start2 == end2) {
+						clearInterval(interval2);
+					}
+				}, 5);
+			}
+		});
+  </script>
+  <script>var number3 = document.querySelector('.number3'),
+		number3Top = number3.getBoundingClientRect().top,
+		start3 = +number3.innerHTML, end3 = +number3.dataset.max;
+
+		window.addEventListener('scroll', function onScroll() {
+			if(window.pageYOffset > number3Top - window.innerHeight / 2) {
+				this.removeEventListener('scroll', onScroll);
+				var interval3 = setInterval(function() {
+					number3.innerHTML = ++start3;
+					if(start3 == end3) {
+						clearInterval(interval3);
+					}
+				}, 5);
+			}
+		});
+  </script>
+  <script>var number4 = document.querySelector('.number4'),
+		number4Top = number4.getBoundingClientRect().top,
+		start4 = +number4.innerHTML, end4 = +number4.dataset.max;
+
+		window.addEventListener('scroll', function onScroll() {
+			if(window.pageYOffset > number4Top - window.innerHeight / 2) {
+				this.removeEventListener('scroll', onScroll);
+				var interval4 = setInterval(function() {
+					number4.innerHTML = ++start4;
+					if(start4 == end4) {
+						clearInterval(interval4);
+					}
+				}, 5);
+			}
+		});
+  </script>
+	
 </body>
 </html>

@@ -528,24 +528,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	});
     </script>
 	
-		<script>
-		var number = document.querySelector('.number'),
-		numberTop = number.getBoundingClientRect().top,
-		start = +number.innerHTML, end = +number.dataset.max;
-
-		window.addEventListener('scroll', function onScroll() {
-			if(window.pageYOffset > numberTop - window.innerHeight / 2) {
-				this.removeEventListener('scroll', onScroll);
-				var interval = setInterval(function() {
-					number.innerHTML = ++start;
-					if(start == end) {
-						clearInterval(interval);
-					}
-				}, 5);
-			}
-		});
-	</script>
-<script>var number1 = document.querySelector('.number1'),
+    <script>
+	var number1 = document.querySelector('.number1'),
 		number1Top = number1.getBoundingClientRect().top,
 		start1 = +number1.innerHTML, end1 = +number1.dataset.max;
 
@@ -560,8 +544,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				}, 5);
 			}
 		});
-  </script>
-  <script>var number2 = document.querySelector('.number2'),
+	    
+         var number2 = document.querySelector('.number2'),
 		number2Top = number2.getBoundingClientRect().top,
 		start2 = +number2.innerHTML, end2 = +number2.dataset.max;
 
@@ -576,8 +560,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				}, 5);
 			}
 		});
-  </script>
-  <script>var number3 = document.querySelector('.number3'),
+	    
+         var number3 = document.querySelector('.number3'),
 		number3Top = number3.getBoundingClientRect().top,
 		start3 = +number3.innerHTML, end3 = +number3.dataset.max;
 
@@ -592,8 +576,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				}, 5);
 			}
 		});
-  </script>
-  <script>var number4 = document.querySelector('.number4'),
+	    
+          var number4 = document.querySelector('.number4'),
 		number4Top = number4.getBoundingClientRect().top,
 		start4 = +number4.innerHTML, end4 = +number4.dataset.max;
 

@@ -48,6 +48,70 @@ h6 {
     margin: 0;
 	color: #323648;
 }
+.txt-alg-jf {
+      text-align: justify;
+      text-indent: 1.5em;
+   }
+
+   .page-booking-btn>button>a {
+       color: blue;
+   }
+   .page-booking-btn>button>a:hover,
+   .page-booking-btn>button>a:active,
+   .page-booking-btn>button>a:focus {
+       color: white;
+   }
+
+   h3.title {
+      font-size: 61px;
+   }
+   @media(max-width:1080px){
+	h3.title {
+	    font-size: 58px;
+	}
+   }
+   @media(max-width:900px){
+	h3.title {
+	    font-size: 52px;
+	}
+   }
+   @media(max-width:768px){
+	h3.title {
+	    font-size: 48px;
+	}
+   }
+   @media(max-width:667px){
+	h3.title {
+	    font-size: 44px;
+	}
+   }
+   @media(max-width:600px){
+	h3.title {
+	    font-size: 40px;
+	}
+   }
+   @media(max-width:568px){
+	h3.title {
+	    font-size: 30px;
+	    letter-spacing: 2px;
+	}
+   }
+   @media(max-width:440px){
+	h3.title {
+	    font-size: 25px;
+	}
+   }
+   @media(max-width:375px){
+	h3.title {
+	    font-size: 20px;
+	}
+   }
+   @media(max-width:320px){
+	h3.title {
+	    font-size: 17px;
+	    letter-spacing: 1px;
+	}
+   }
 li {
     list-style-type: none;
 }

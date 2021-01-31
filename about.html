@@ -188,8 +188,9 @@
 	<div class="container py-lg-5 py-md-3">
 			<h3 class="heading text-capitalize text-center mb-lg-5 mb-4" data-aos="zoom-in">Что Говорят Наши Клиенты</h3>
 		<div class="row pt-xl-4">
-                        <div id="wpac-comment"></div>
-			<!--
+                        <div id="wpac-review"></div>
+                       <!-- <div id="wpac-comment"></div>
+			
                         <div class="col-md-4 test-grid px-lg-4">
 				<div class="testi-info text-center">
 					<p class="text-li">"Sed ut perspiciatis unde omnis ist natus error sit volup tatem acu antium dolor tium sed e ullam dolor amet.</p>
@@ -431,7 +432,7 @@
 		});
  
     </script>
-
+<!--
    <script type="text/javascript">
 wpac_init = window.wpac_init || [];
 wpac_init.push({widget: 'Comment', id: 29160});
@@ -445,8 +446,25 @@ wpac_init.push({widget: 'Comment', id: 29160});
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
 })();
 </script>
+-->
 <!--
 <a href="https://widgetpack.com" class="wpac-cr">Comments System WIDGET PACK</a>
 -->
+
+<script type="text/javascript">
+wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Review', id: 29160});
+(function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = 'https://embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();
+</script>
+
+
 </body>
 </html>

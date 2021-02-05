@@ -63,8 +63,14 @@ h6 {
    }
 
    h3.title {
-      font-size: 61px;
+    font-size: 67px;
+    color: #424141;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
    }
+  
    @media(max-width:1080px){
 	h3.title {
 	    font-size: 58px;

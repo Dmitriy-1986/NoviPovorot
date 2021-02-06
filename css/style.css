@@ -437,6 +437,7 @@ li > a:only-child:after { content: ''; }
 	}
 
 }
+
 .user span.fa {
     font-size: 25px;
     color: #fff;

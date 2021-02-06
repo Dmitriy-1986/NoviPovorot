@@ -1,8 +1,8 @@
 
 <h2>
-    <a href="https://novi-povorot.pp.ua">
-        Новый поворот
+    <a href="https://novipovorot.pp.ua">
+        Новый поворот | www.novipovorot.pp.ua
     </a>
 </h2>
 <hr>
-https://novi-povorot.pp.ua
+

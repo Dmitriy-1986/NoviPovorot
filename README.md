@@ -4,5 +4,5 @@
         Новый поворот | www.novipovorot.pp.ua
     </a>
 </h2>
-<hr>
+
 

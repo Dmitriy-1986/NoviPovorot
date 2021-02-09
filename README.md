@@ -1,7 +1,7 @@
 
 <h2>
     <a href="https://novipovorot.pp.ua">
-       <span style="color: white; font-size: 12px;">Туры выходного дня </span>'Новый поворот'
+       Туры выходного дня 'Новый поворот'
     </a>
 </h2>
 

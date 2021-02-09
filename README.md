@@ -1,5 +1,5 @@
 <div style="display: flex; flex-direction: row;">
-<p>Туры выходного дня</p>
+<div><p>Туры выходного дня</p></div>
 <h2>
     <a href="https://novipovorot.pp.ua">
        'Новый поворот'

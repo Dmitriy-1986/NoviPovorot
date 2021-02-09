@@ -121,7 +121,7 @@
                             <button type="button" class="btn btn-outline-primary mr-3"> <a
                                     href="https://novipovorot.pp.ua/booking.html">Забронировать</a> </button>
 
-                            <!-- liq pay -->
+                            <!-- liq pay --><!--
                             <form method="POST" accept-charset="utf-8" action="https://www.liqpay.ua/api/3/checkout">
                                 <input type="hidden" name="data"
                                     value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJhbW91bnQiOiIwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCt0LrRgdC60YPRgNGB0LjRjyIsInB1YmxpY19rZXkiOiJpNzQ2NTQ4MzU1NTIiLCJsYW5ndWFnZSI6InJ1In0=" />
@@ -134,7 +134,7 @@
                                         style="margin-right: 7px !important; vertical-align: middle !important;" />
                                     <span style="vertical-align:middle;">Оплатить</span>
                                 </button>
-                            </form>
+                            </form>-->
                             <!-- liq pay -->
                         </div>
                         <p>
@@ -242,7 +242,7 @@
                                 <ul>
                         </div>
 		       <!-- liq pay -->
-                       <div id="liqpay_checkout"></div>
+                     <!--  <div id="liqpay_checkout"></div>-->
                     </div>
                 </div>
             </div>
@@ -251,29 +251,6 @@
         </div>
     </section>
     <!--//single page-->
-
-    <!-- liq pay -->
-    <script>
-        window.LiqPayCheckoutCallback = function () {
-            LiqPayCheckout.init({
-                data: "eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJhbW91bnQiOiIwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCt0LrRgdC60YPRgNGB0LjRjyIsInB1YmxpY19rZXkiOiJpNzQ2NTQ4MzU1NTIiLCJsYW5ndWFnZSI6InJ1In0=",
-                signature: "4+42EF/w3QRoK5hOJqe+N3dSS/0=",
-                embedTo: "#liqpay_checkout",
-                mode: "embed" // embed || popup,
-            }).on("liqpay.callback", function (data) {
-                console.log(data.status);
-                console.log(data);
-            }).on("liqpay.ready", function (data) {
-                // ready
-            }).on("liqpay.close", function (data) {
-                // close
-            });
-        };
-    </script>
-    <script src="//static.liqpay.ua/libjs/checkout.js" async></script>
-
-    <!-- liq pay -->
-
     <!--footer -->
     <footer>
         <section class="footer footer_w3layouts_section_1its py-5">

@@ -1,11 +1,10 @@
-<div style="display: flex; flex-direction: row;">
-<div><p>Туры выходного дня</p></div>
+
 <h2>
     <a href="https://novipovorot.pp.ua">
-       Туры выходного дня 'Новый поворот'
+       <span style="color: white; font-size: 12px;">Туры выходного дня </span>'Новый поворот'
     </a>
 </h2>
-</div>
+
 <ul>
     <li><a href="index.html">Главная</a></li>
     <li><a href="about.html"> О Нас </a></li>

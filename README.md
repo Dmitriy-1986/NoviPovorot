@@ -1,9 +1,11 @@
-
+<div style="display: flex; flex-direction: row;">
+<p>Туры выходного дня</p>
 <h2>
     <a href="https://novipovorot.pp.ua">
-        Новый поворот | Туры выходного дня | Путешевствия из Запорожье
+       'Новый поворот'
     </a>
 </h2>
+</div>
 <ul>
     <li><a href="index.html">Главная</a></li>
     <li><a href="about.html"> О Нас </a></li>

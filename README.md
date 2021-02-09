@@ -1,7 +1,7 @@
 
 <h2>
     <a href="https://novipovorot.pp.ua">
-        Новый поворот | www.novipovorot.pp.ua
+        Новый поворот | Туры выходного дня | Путешевствия из Запорожье
     </a>
 </h2>
 <ul>

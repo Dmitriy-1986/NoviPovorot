@@ -6,11 +6,11 @@
 </h2>
 
 <span>
-<a href="index.html">Главная</a> | 
-<a href="about.html"> О Нас </a> |
-<a href="packages.html">Туры</a> |
-<a href="contact.html">Контакты</a> |
-<a href="booking.html">Забронировать</a>
+<a href="https://novipovorot.pp.ua/index.html">Главная</a> | 
+<a href="https://novipovorot.pp.ua/about.html"> О Нас </a> |
+<a href="https://novipovorot.pp.ua/packages.html">Туры</a> |
+<a href="https://novipovorot.pp.ua/contact.html">Контакты</a> |
+<a href="https://novipovorot.pp.ua/booking.html">Забронировать</a>
 </span>
 <h3>Мы отвезем вас в лучшие местa, <strong> путешествуйте вместе с нами! </strong></h3>
 <p>

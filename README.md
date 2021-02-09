@@ -5,13 +5,13 @@
     </a>
 </h2>
 
-<ul>
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="about.html"> О Нас </a></li>
-    <li><a href="packages.html">Туры</a></li>
-    <li><a href="contact.html">Контакты</a></li>
-    <li><a href="booking.html">Забронировать</a></li>
-</ul>
+<span>
+<a href="index.html">Главная</a> | 
+<a href="about.html"> О Нас </a> |
+<a href="packages.html">Туры</a> |
+<a href="contact.html">Контакты</a> |
+<a href="booking.html">Забронировать</a>
+</span>
 <h3>Мы отвезем вас в лучшие местa, <strong> путешествуйте вместе с нами! </strong></h3>
 <p>
    Сделаем Вашу жизнь ярче и разнообразнее.

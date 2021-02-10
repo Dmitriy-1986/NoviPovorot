@@ -7,7 +7,7 @@
 
 <span>
 <a href="https://novipovorot.pp.ua/index.html">Главная</a> | 
-<a href="https://novipovorot.pp.ua/about.html"> О Нас </a> |
+<a href="https://novipovorot.pp.ua/about.html"> Отзывы </a> |
 <a href="https://novipovorot.pp.ua/packages.html">Туры</a> |
 <a href="https://novipovorot.pp.ua/contact.html">Контакты</a> |
 <a href="https://novipovorot.pp.ua/booking.html">Забронировать</a>

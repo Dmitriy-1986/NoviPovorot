@@ -326,6 +326,30 @@
     
     <!-- owl-carousel -->
     <script src="./libs/owl-carousel/owl.carousel.min.js"></script>
+    <script>
+    $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+        items: 5,
+        loop: true,
+        nav: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
+});
+    </script>
     <!-- //owl-carousel -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

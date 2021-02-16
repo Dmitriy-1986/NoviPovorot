@@ -519,7 +519,8 @@ li > a:only-child:after { content: ''; }
 }
 .overlay {
     min-height: 750px;
-    background: rgba(0, 0, 0, 0.5);
+  <!--  background: rgba(0, 0, 0, 0.5); -->
+   background: #08d1cb;
 }
 .overlay1 {
     min-height: 750px;

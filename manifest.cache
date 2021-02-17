@@ -1,0 +1,13 @@
+CACHE MANIFEST
+index.html
+style.css
+images/masthead.png
+scripts/misc.js
+
+NETWORK:
+search.php
+login.php
+/api
+
+FALLBACK:
+images/dynamic.php static_image.png

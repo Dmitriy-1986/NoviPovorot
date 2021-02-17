@@ -1,8 +1,33 @@
 CACHE MANIFEST
 index.html
+about.html
+booking.html
+contact.html
+packages.html
+css/css_slider.css
+css/bootstrap.css
+css/font-awesome.min.css
 css/style.css
-images/masthead.png
-scripts/misc.js
+libs/owl-carousel/owl.carousel.min.css
+libs/owl-carousel/owl.carousel.min.js
+libs/owl-carousel/owl.theme.default.min.css
+images/feedback/feedback-1.jpg
+images/feedback/feedback-2.jpg
+images/feedback/feedback-3.jpg
+images/feedback/feedback-4.jpg
+images/feedback/feedback-5.jpg
+images/feedback/feedback-6.jpg
+images/feedback/feedback-7.jpg
+images/feedback/feedback-8.jpg
+images/feedback/feedback-9.jpg
+images/feedback/feedback-10.jpg
+images/feedback/feedback-11.jpg
+images/feedback/feedback-12.jpg
+images/feedback/feedback-13.jpg
+images/feedback/feedback-14.jpg
+images/feedback/feedback-15.jpg
+images/feedback/feedback-16.jpg
+images/feedback/feedback-17.jpg
 
 NETWORK:
 

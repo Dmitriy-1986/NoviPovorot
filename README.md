@@ -1,4 +1,6 @@
-<!-- https://twitter.com/novipovorot -->
+<!-- https://twitter.com/novipovorot 
+class="fa fa-twitter"
+-->
 <h2>
     <a href="https://novipovorot.pp.ua">
        Туры выходного дня 'Новый поворот'

@@ -1,5 +1,6 @@
 <!-- https://twitter.com/novipovorot 
 class="fa fa-twitter"
+ #00acee
 -->
 <h2>
     <a href="https://novipovorot.pp.ua">

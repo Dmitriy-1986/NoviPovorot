@@ -1,3 +1,2 @@
-AddCharset UTF-8 .html .appcache
+AddCharset UTF-8 
 ErrorDocument 404 /404.html
-AddType text/cache-manifest .appcache

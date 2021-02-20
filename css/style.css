@@ -19,6 +19,11 @@ body a {
     font-family: 'Open Sans', sans-serif;
 }
 
+.df-cntr {
+    display: flex;
+    justify-content: center;
+}
+
 body img {
     max-width: 100%;
 }

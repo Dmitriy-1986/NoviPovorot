@@ -1,2 +1,2 @@
 ErrorDocument 404 /404.html
-AddType text/cache-manifest .cache
+AddType text/cache-manifest .appcache

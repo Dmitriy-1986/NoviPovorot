@@ -22,7 +22,7 @@
 <a href="https://novipovorot.pp.ua/contact.html">Контакты</a> |
 <a href="https://novipovorot.pp.ua/booking.html">Забронировать</a>
 </span>
-<h3>Мы отвезем вас в лучшие местa, путешествуйте вместе с нами! </h3>
+<h6>Мы отвезем вас в лучшие местa, путешествуйте вместе с нами! </h6>
 
                 
 

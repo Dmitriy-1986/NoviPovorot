@@ -1,6 +1,7 @@
 <!--
 <meta name="keywords" content="Экскурсии, Туры выходного дня, Запорожье, Экскурсии, Путешествия, Отдых, Автобусные туры">
 <meta name="description" content="Туры выходного дня, автобусные туры, экскурсии из Запорожья">
+ https://vk.com/novipovorotppua
 -->
 <h2>
     <a href="https://novipovorot.pp.ua">

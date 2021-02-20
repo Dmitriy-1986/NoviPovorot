@@ -9,11 +9,11 @@
 --------------------------------
 -->
 
-<h2>
+<h3>
     <a href="https://novipovorot.pp.ua">
        Туры выходного дня 'Новый поворот'
     </a>
-</h2>
+</h3>
 
 <span>
 <a href="https://novipovorot.pp.ua/index.html">Главная</a> | 

@@ -8,7 +8,7 @@ ExpiresActive On
 #по умолчанию кеш в 5 секунд
 ExpiresDefault "access plus 1 week"
 
-# Включаем кэширование изображений и флэш на месяц
+# Включаем кэширование на месяц
 ExpiresByType index.html "access plus 1 year"
 ExpiresByType about.html "access plus 1 year"
 ExpiresByType booking.html "access plus 1 year"

@@ -1,3 +1,17 @@
-AddCharset UTF-8  .html .appcache
+AddCharset UTF-8  .html 
 ErrorDocument 404 /404.html
-AddType text/cache-manifest .appcache
+
+# кеш браузера
+<ifModule mod_expires.c>
+ExpiresActive On
+
+#по умолчанию кеш в 5 секунд
+ExpiresDefault "access plus 1 week"
+
+# Включаем кэширование изображений и флэш на месяц
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType   "access plus 1 year"
+ExpiresByType   "access plus 1 year"
+ExpiresByType   "access plus 1 year"
+ 
+</ifModule>

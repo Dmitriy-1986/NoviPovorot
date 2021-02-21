@@ -75,7 +75,6 @@ ExpiresByType images/lol-max.jpg "access plus 1 year"
 ExpiresByType images/lol-mini.jpg "access plus 1 year"
 ExpiresByType images/novi-povorot.jpg "access plus 1 year"
 ExpiresByType images/map-signs-solid.svg "access plus 1 year"
-
 </ifModule>
 
 

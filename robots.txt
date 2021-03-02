@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: 
+Allow: https://novipovorot.pp.ua/rss-feed.xml
 Sitemap: https://novipovorot.pp.ua/sitemap.xml

@@ -3,6 +3,9 @@ https://novipovorot.pp.ua/about.html
 https://novipovorot.pp.ua/booking.html
 https://novipovorot.pp.ua/contact.html
 https://novipovorot.pp.ua/packages.html
+
+https://novipovorot.pp.ua/page-wine.html
+https://novipovorot.pp.ua/page-Georgia.html
 https://novipovorot.pp.ua/page-Beer.html
 https://novipovorot.pp.ua/page-Hortica.html
 https://novipovorot.pp.ua/page-Karpati.html
@@ -13,3 +16,4 @@ https://novipovorot.pp.ua/page-Stambul.html
 https://novipovorot.pp.ua/page-Turkey.html
 https://novipovorot.pp.ua/page-cofe-Isla.html
 https://novipovorot.pp.ua/page-eight-march.html
+https://novipovorot.pp.ua/page-TicToc-pati.html

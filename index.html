@@ -756,16 +756,17 @@ src="https://www.facebook.com/tr?id=3921253151274858&ev=PageView&noscript=1"
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    
     <!-- Preload script-->
-    <script>
-  window.onload = function () {
-    document.body.classList.add('loaded_hiding');
-    window.setTimeout(function () {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loaded_hiding');
-    }, 500);
-  }
-</script>
+    <!--<script>
+      window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+          document.body.classList.add('loaded');
+          document.body.classList.remove('loaded_hiding');
+        }, 500);
+      }
+    </script>-->
 
     <!-- Aos script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -793,7 +794,8 @@ src="https://www.facebook.com/tr?id=3921253151274858&ev=PageView&noscript=1"
 
         });
     </script>
-
+    <!-- /Aos script -->
+    
     <script>
         var number1 = document.querySelector('.number1'),
             number1Top = number1.getBoundingClientRect().top,
@@ -859,47 +861,35 @@ src="https://www.facebook.com/tr?id=3921253151274858&ev=PageView&noscript=1"
             }
         });
     </script>
+    
+   <!-- Schema.org -->
+    <script type="application/ld+json"> 
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Туры выходного дня - Новый Поворот",
+          "url": "https://novipovorot.pp.ua",
+          "description": "Туры выходного дня 'Новый поворот' | Контакты: +380985771579, +380506702264, dovgalyv@ukr.net | Экскурсии | Путешевствия | Походы | Мастер-классы | Дегустации",
+          "image": "https://dmitriy-1986.github.io/Travell-tours-site/images/novi-povorot.jpg"
+        }
+    </script>
+    <!-- /Schema.org -->
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   <script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Organization",
-  "name" : "novipovorot",
-  "url" : "https://novipovorot.pp.ua",
-  "sameAs" : [
-    "https://vk.com/novipovorotppua",
-    "https://www.facebook.com/284598912231286/",
-    "https://www.instagram.com/dovgalyv.zp/",
-    "https://t.me/novipovorot",
-    "https://invite.viber.com/?g2=AQAI6YLBmgfH7kiQ8udTUV2l%2BFIhhpFkz60dsKyAsnZiA6r%2FOtLLImR2o3mLR9Bp",
-    "https://twitter.com/novipovorot"
-  ]
-}
-</script>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+       ym(73733449, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+       });
+    </script>
+    <!-- /Yandex.Metrika counter -->
 
-   ym(73733449, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-<!-- /Yandex.Metrika counter -->
 
-<script type="application/ld+json"> 
-{
-  "@context": "https://schema.org/",
-  "@type": "WebSite",
-  "name": "Туры выходного дня - Новый Поворот",
-  "url": "https://novipovorot.pp.ua",
-  "description": "Туры выходного дня 'Новый поворот' | Контакты: +380985771579, +380506702264, dovgalyv@ukr.net | Экскурсии | Путешевствия | Походы | Мастер-классы | Дегустации",
-  "image": "https://dmitriy-1986.github.io/Travell-tours-site/images/novi-povorot.jpg"
-}
-</script>
 
 </body>
 

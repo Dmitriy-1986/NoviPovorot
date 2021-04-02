@@ -1,1 +1,42 @@
 /* fancybox */
+  
+      .main .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .main .card {
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+        color: #333;
+        border-radius: 2px;
+      }
+  
+      .main .card-image {
+        background: #fff;
+        display: block;
+        padding-top: 70%;
+        position: relative;
+        width: 100%;
+      }
+  
+      .main .card-image img {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  
+      @media only screen and (max-width: 600px) {
+        .main .container {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-gap: 1rem;
+        }
+      }

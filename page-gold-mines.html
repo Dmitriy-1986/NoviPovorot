@@ -35,7 +35,10 @@
     <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
     <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
     <!-- //css files -->
-
+    <!-- Fancybox  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./libs/fancybox/gallery-style.css">
+    <!-- //Fancybox  -->
     <!-- google fonts -->
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
         rel="stylesheet">
@@ -370,6 +373,76 @@
                                 </li>
                              <ul>
                         </div>
+
+ <!--gallery-->
+<main class="main">
+    <div class="container">
+      <div class="card">
+        <div class="card-image"> <a data-fancybox="gallery" data-caption="Caption #1" data-fancybox="gallery"
+            href="./assets/img/thumb-01.jpg">
+            <img src="./assets/img/thumb-01.jpg"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image"> <a data-fancybox="gallery" data-caption="Caption #2" data-fancybox="gallery"
+            href="./assets/img/thumb-02.jpg">
+            <img src="./assets/img/thumb-02.jpg"></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image"> <a data-fancybox="gallery" data-caption="Caption #3" data-fancybox="gallery"
+            href="./assets/img/thumb-03.jpg">
+            <img src="./assets/img/thumb-03.jpg"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image"> <a data-fancybox="gallery" data-caption="Caption #4" data-fancybox="gallery"
+            href="./assets/img/thumb-04.jpg">
+            <img src="./assets/img/thumb-04.jpg"></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image"> <a data-fancybox="gallery" data-caption="Caption #5" data-fancybox="gallery"
+            href="./assets/img/thumb-05.jpg">
+            <img src="./assets/img/thumb-05.jpg"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image"> <a data-fancybox="gallery" data-caption="Caption #6" data-fancybox="gallery"
+            href="./assets/img/thumb-06.jpg">
+            <img src="./assets/img/thumb-06.jpg"></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image"> <a data-fancybox="gallery" data-caption="Caption #7" data-fancybox="gallery"
+            href="./assets/img/thumb-07.jpg">
+            <img src="./assets/img/thumb-07.jpg"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image"> <a data-fancybox="gallery" data-caption="Caption #8" data-fancybox="gallery"
+            href="./assets/img/thumb-08.jpg">
+            <img src="./assets/img/thumb-08.jpg"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image"> <a data-fancybox="gallery" data-caption="Caption #9" data-fancybox="gallery"
+            href="./assets/img/IMG_20201214_232550_041.jpg">
+            <img src="./assets/img/IMG_20201214_232550_041.jpg"></a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+
+
                      <hr>
                <p>
                 Тексты подсказок:
@@ -532,6 +605,23 @@
          });
        });
     </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!--<script src="/libs/fancybox/jquery.fancybox.js"></script>-->
+  <script>
+    $('[data-fancybox="gallery"]').fancybox({
+      buttons: [
+        "slideShow",
+        "thumbs",
+        "zoom",
+        "fullScreen",
+        "share",
+        "close"
+      ],
+      loop: false,
+      protect: true
+    });
+  </script>
 </body>
 
 </html>

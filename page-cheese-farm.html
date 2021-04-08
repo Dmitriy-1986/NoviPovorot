@@ -36,6 +36,11 @@
     <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
     <!-- //css files -->
 
+    <!-- Fancybox  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./libs/fancybox/gallery-style.css">
+    <!-- //Fancybox  -->
+
     <!-- google fonts -->
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
         rel="stylesheet">
@@ -593,6 +598,24 @@
          });
        });
     </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!--<script src="/libs/fancybox/jquery.fancybox.js"></script>-->
+  <script>
+    $('[data-fancybox="gallery"]').fancybox({
+      buttons: [
+        "slideShow",
+        "thumbs",
+        "zoom",
+        "fullScreen",
+        "share",
+        "close"
+      ],
+      loop: false,
+      protect: true
+    });
+  </script>
+
 </body>
 
 </html>

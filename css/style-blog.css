@@ -436,12 +436,18 @@ h3.heading, h4.heading {
     text-align: center!important;
 }
 
+.text {
+    max-width: 700px;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    color: #707579;
+    font-family: 'Open Sans', sans-serif;
+}
 /*-------------------- 
      //Заголовок 
 ----------------------*/
-
-
-
 
 
 

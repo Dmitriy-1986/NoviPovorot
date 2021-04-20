@@ -416,6 +416,19 @@ nav li.booking a {
 }
 /*-- //btn-outline --*/
 
+/*-- Заголовок --*/
+h3.heading, h2.heading {
+    font-size: 43px;
+}
+
+.text-capitalize {
+    text-transform: capitalize!important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+/*-- //Заголовок --*/
 
 hr {
   box-sizing: content-box;

@@ -59,7 +59,9 @@ body {
 
 
 
-/*-- header --*/
+/*-------------------
+        header 
+---------------------*/
 
 header {
     position: absolute;
@@ -359,97 +361,7 @@ li > a:only-child:after { content: ''; }
 }
 /*-- //header --*/
 
-/* banner style */
-.banner_w3lspvt {
-    position: relative;
-    z-index: 1;
-}
 
-.banner-top {
-    background: url(../images/banner1-min.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-}
-
-.banner-top1 {
-    background: url(../images/banner2.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-}
-
-.banner-top2 {
-    background: url(../images/banner3.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-}
-
-.banner-top3 {
-    background: url(../images/banner4.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-}
-
-.w3layouts-banner-info {
-    padding-top: 18em;
-    max-width: 800px;
-}
-
-.w3layouts-banner-info h3 {
-    text-shadow: 3px 4px 6px rgba(45, 45, 45, 0.15);
-    font-size: 3.3em;
-    letter-spacing: 1px;
-    color: #fff;
-    font-weight: 300;
-    text-transform: capitalize;
-    line-height: 68px;
-}
-
-.w3layouts-banner-info h4 {
-    color: #eee;
-    margin: 1em 0 1.5em;
-    letter-spacing: 4px;
-    text-transform: capitalize;
-    font-weight: 200;
-}
-.w3layouts-banner-info a.btn {
-    border: 2px solid #fff;
-    border-radius: 0px;
-    padding: 11px 30px;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 2px;
-	text-transform: capitalize;
-	font-family: 'Raleway', sans-serif;
-}
-
-.banner-top,
-.banner-top1,
-.banner-top2,
-.banner-top3 {
-    min-height: 750px;
-}
-.overlay {
-    min-height: 750px;
-    background: rgba(0, 0, 0, 0.5); 
-}
-.overlay1 {
-    min-height: 750px;
-    background: rgba(0, 0, 0, 0.6);
-}
-
-/*-- //banner style --*/
 
 
 

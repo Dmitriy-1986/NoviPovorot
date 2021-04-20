@@ -417,8 +417,13 @@ nav li.booking a {
 /*-- //btn-outline --*/
 
 /*-- Заголовок --*/
-h3.heading, h2.heading {
+h3.heading, h4.heading {
     font-size: 43px;
+    margin: 0;
+    color: #323648;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Raleway', sans-serif;
 }
 
 .text-capitalize {
@@ -427,14 +432,6 @@ h3.heading, h2.heading {
 
 .text-center {
     text-align: center!important;
-}
-
-h3 {
-    margin: 0;
-    color: #323648;
-    font-weight: 500;
-    line-height: 1.2;
-    font-family: 'Raleway', sans-serif;
 }
 
 /*-------------------- 

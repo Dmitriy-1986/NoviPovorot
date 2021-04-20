@@ -417,8 +417,8 @@ nav li.booking a {
 /*-- //btn-outline --*/
 
 /*-- Заголовок --*/
-h3 {font-size: 43px;}
-h4 {font-size: 35px;}
+h3.heading {font-size: 43px;}
+h4.heading {font-size: 35px;}
 
 h3.heading, h4.heading {
     margin: 0;

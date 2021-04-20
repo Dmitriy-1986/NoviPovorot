@@ -378,6 +378,27 @@ li > a:only-child:after { content: ''; }
 	min-height: 300px;
 }
 
+nav li.booking a {
+    background: #047ffc;
+    padding: 10px 25px;
+    display: block;
+    margin-top: -7px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+@media(max-width:991px) {
+	nav li.booking a {
+		display: inline-block;
+	}
+}
+@media(max-width:384px) {
+	li.booking {
+			margin-top: 10px;
+	}
+}	
 /*-- //inner banner --*/
 
 

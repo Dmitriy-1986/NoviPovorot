@@ -401,9 +401,20 @@ nav li.booking a {
 }	
 /*-- //inner banner --*/
 
-
-
-
+/*-- btn-outline --*/
+.btn-outline {
+    padding: 12px 30px;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+/*-- //btn-outline --*/
 
 
 hr {

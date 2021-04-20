@@ -363,6 +363,25 @@ li > a:only-child:after { content: ''; }
 
 
 
+/*-- inner banner --*/
+.banner_inner {
+    background: url(../images/banner1.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+	min-height: 300px;
+}
+.banner_inner_overlay{
+    background: rgba(0, 0, 0, 0.5);
+	min-height: 300px;
+}
+
+/*-- //inner banner --*/
+
+
+
 
 
 

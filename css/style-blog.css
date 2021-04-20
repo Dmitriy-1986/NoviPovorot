@@ -11137,6 +11137,7 @@ h4.side-title {
   border-radius: var(--border-radius); }
 
 /*-- //video post --*/
+
 @media (max-width: 768px) {
   .post-content iframe {
     height: 450px; }
@@ -11292,7 +11293,7 @@ h1.error-title {
   .cont-top {
     grid-column-gap: 10px; } }
 
-/*# sourceMappingURL=style-starter.css.map */
+
 
 
 /*-- toggle switch --*/

@@ -428,7 +428,20 @@ h3.heading, h2.heading {
 .text-center {
     text-align: center!important;
 }
-/*-- //Заголовок --*/
+
+h3 {
+    margin: 0;
+    color: #323648;
+}
+
+/*-------------------- 
+     //Заголовок 
+----------------------*/
+
+
+
+
+
 
 hr {
   box-sizing: content-box;

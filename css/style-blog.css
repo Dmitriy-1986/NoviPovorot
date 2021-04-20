@@ -412,7 +412,7 @@ nav li.booking a {
     border-radius: 8px;
     background-color: transparent;
     color: var(--primary);
-    border: 1px solid var(--primary);
+    border: 1px solid #007bff;
 }
 /*-- //btn-outline --*/
 

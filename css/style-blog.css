@@ -401,21 +401,6 @@ nav li.booking a {
 }	
 /*-- //inner banner --*/
 
-/*-- btn-outline --*/
-.btn-outline {
-    padding: 12px 30px;
-    font-size: 17px;
-    line-height: 26px;
-    text-transform: capitalize;
-    font-weight: 600;
-    transition: 0.3s ease-in;
-    border-radius: 8px;
-    background-color: transparent;
-    color: var(--primary);
-    border: 1px solid #007bff;
-}
-/*-- //btn-outline --*/
-
 /*-- Заголовок --*/
 h3.heading {font-size: 43px;}
 h4.heading {font-size: 35px;}

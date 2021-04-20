@@ -636,9 +636,43 @@ li.telegram a  {
 }
 /*--//footer--*/
 
+/*-- copy right --*/
+.copyright {
+    background: #222;
+}
+.copyright p a {
+    color: #aaa;
+}
+/*-- //copy right --*/
 
+/*-- move top --*/
 
+.move-top {
+    position: relative;
+}
 
+a.move-top {
+    text-align: center;
+    position: absolute;
+    right: 1%;
+    bottom: 0%;
+}
+
+a.move-top span{
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    border: transparent;
+    line-height: 2em;
+    background: #047ffc;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+}
+
+/*-- //move top --*/
 
 hr {
   box-sizing: content-box;

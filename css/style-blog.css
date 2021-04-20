@@ -428,6 +428,33 @@ h3.heading, h4.heading {
     font-family: 'Raleway', sans-serif;
 }
 
+@media (max-width: 1080px) {
+	h3.heading, h2.heading {
+		font-size: 40px;
+	}
+	h4.heading {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 768px){
+	h3.heading, h2.heading {
+		font-size: 36px;
+	}
+	h4.heading {
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 480px){
+	h3.heading, h2.heading {
+		font-size: 30px;
+	}
+	h4.heading {
+		font-size: 22px;
+	}
+}
+
 .text-capitalize {
     text-transform: capitalize!important;
 }

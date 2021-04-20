@@ -449,6 +449,195 @@ h3.heading, h4.heading {
      //Заголовок 
 ----------------------*/
 
+/*--footer--*/
+
+.footer_w3layouts_section_1its{
+	background: #151515;
+}
+
+.footer_w3layouts_section_1its h3,.footer_w3layouts_section_1its h2{
+	font-size: 1.3em;
+	color: #eee;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+}
+
+.footer-text p, .contact-info p {
+    color: #808080;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+}
+
+.phone {
+    margin-top: 20px;
+}
+
+.contact-info h4 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.footer p,.footer a{
+	color: #707070;
+    margin: 8px 0;
+}
+.footer-grid:nth-child(2) {
+	border-left: 1px solid #1b1b1b;
+	border-right: 1px solid #1b1b1b;
+}
+
+.footer ul li.hd {
+	color: #34bf49;
+}
+
+.newsletter .email {
+	background-color: #F4F4F4;
+	border: none;
+}
+
+.flickr-grid {
+	float: left;
+	width: 32%;
+	margin: 0 0.1em .2em;
+}
+
+.flickr-grid a img {
+	width: 100%;
+	padding: 0.3em;
+	border: 1px solid #333333;
+}
+
+.footer-text input[type="email"] {
+    outline: none;
+    padding: 12px 15px;
+    color: #fff;
+    font-size: 13px;
+    width: 85%;
+    border: none;
+    background: none;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.newsletter {
+	position: relative;
+	margin-top: 2em;
+}
+
+button.btn1 {
+    color:#808080;
+    border: none;
+    padding: 10px 0;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+   cursor:pointer;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    float: right;
+    width: 15%;
+}
+.footer-grid_section_1its_w3 form {
+    border: 1px solid #808080;
+    width: 100%;
+    margin-top: 20px;
+}
+ul.social_section_1info li {
+    display: inline-block;
+}
+
+ul.social_section_1info a {
+    color: #808080;
+    margin-right: 10px;
+    font-size: 13.5px;
+    margin-right: 2px;
+    width: 35px;
+    height: 35px;
+    background: #212121;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+	letter-spacing: 1px;
+}
+ul.social_section_1info a:hover{
+    color: #fff;
+}
+
+.phone p a {
+    color: #808080;
+}
+.phone p a:hover {
+    color: #fff;
+}
+
+ul.links li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+ul.links li a{
+    color: #707070;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+ul.links li a:hover{
+    color: #999;
+}
+.footer-title a i {
+    font-size: 1em;
+    width: 55px;
+    height: 55px;
+    background: #047ffc;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.69);
+}
+.footer-title a {
+    font-size: 33px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #eee;
+}
+
+li.facebook a {
+    color: #fff;
+    background: #3b5998;
+}
+li.vk a {
+   color: #fff ;
+   background: #597da3;
+}
+li.twitter a  {
+    color: #fff;
+    background: #00acee;
+}
+li.instagram a  {
+    color: #fff;
+    background: #e4405f;
+}
+li.viber a  {
+    color: #fff;
+    background: #665CAC;
+}
+li.telegram a  {
+    color: #fff;
+    background: #0088cc;
+}
+/*--//footer--*/
+
+
+
 
 
 hr {

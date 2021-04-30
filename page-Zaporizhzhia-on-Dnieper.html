@@ -300,12 +300,12 @@
                             Тексты подсказок:
                         </p>
                        
-                        <span class="badge rounded-pill bg-secondary"> <a class="text-white" title="Запорожье" href="#Zaporozhye">Запорожье</a></span>
-                        <span class="badge rounded-pill bg-secondary"> <a class="text-white" title="Экскурсия в Запорожье" href="#ExcursionToZaporozhye">Экскурсия в Запорожье</a></span>
-                        <span class="badge rounded-pill bg-secondary"> <a class="text-white" title="Новый Поворот Запорожье" href="#logo">Новый Поворот Запорожье</a></span>
-                        <span class="badge rounded-pill bg-secondary"> <a class="text-white" title="Запорожье на Днепре" href="#ZaporizhzhiaOnTheDnieper">Запорожье на Днепре</a></span>
-                        <span class="badge rounded-pill bg-secondary"> <a class="text-white" title="Экскурсия с 'огоньком'" href="#ExcursionWithFire">Экскурсия с "огоньком"</a></span>
-                        <span class="badge rounded-pill bg-secondary"> <a class="text-white" title="Прогулка с изюминкой" href="#WalkWithTwist">Прогулка с изюминкой</a></span>
+                        <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('Zaporozhye')" class="text-white" title="Запорожье" href="#Zaporozhye">Запорожье</a></span>
+                        <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('ExcursionToZaporozhye')" class="text-white" title="Экскурсия в Запорожье" href="#ExcursionToZaporozhye">Экскурсия в Запорожье</a></span>
+                        <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('logo')" class="text-white" title="Новый Поворот Запорожье" href="#logo">Новый Поворот Запорожье</a></span>
+                        <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('ZaporizhzhiaOnTheDnieper')" class="text-white" title="Запорожье на Днепре" href="#ZaporizhzhiaOnTheDnieper">Запорожье на Днепре</a></span>
+                        <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('ExcursionWithFire')" class="text-white" title="Экскурсия с 'огоньком'" href="#ExcursionWithFire">Экскурсия с "огоньком"</a></span>
+                        <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('WalkWithTwist')" class="text-white" title="Прогулка с изюминкой" href="#WalkWithTwist">Прогулка с изюминкой</a></span>
                         
                                 <!-- liq pay -->
                         <!--<div id="liqpay_checkout"></div>-->
@@ -458,7 +458,22 @@
     <script>
         console.log("Туры выходного дня 'Новый Поворот'");
     </script>
-
+    <!--Выделение текста при клике на хештэг-->
+    <script>
+        function selectText(containerid) {
+            if (document.selection) { // IE
+                var range = document.body.createTextRange();
+                range.moveToElementText(document.getElementById(containerid));
+                range.select();
+            } else if (window.getSelection) {
+                var range = document.createRange();
+                range.selectNode(document.getElementById(containerid));
+                window.getSelection().removeAllRanges();
+                window.getSelection().addRange(range);
+            }
+        }
+    </script>
+    <!--//Выделение текста при клике на хештэг-->
 </body>
 
 </html>

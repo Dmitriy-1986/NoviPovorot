@@ -17,16 +17,7 @@
     <meta property="og:image" src="images/Kharkov-max.jpg">
     <!--End Open Graph data-->
 
-    <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-
+    <link href="css/SmoothScrolling.css" rel="stylesheet"><!-- SmoothScrolling.css -->
     <!--favicon.ico-->
     <link rel="shortcut icon" href="./images/map-signs-solid.svg" />
     <!--//favicon.ico-->
@@ -561,11 +552,16 @@
     <!-- //copyright -->
 
     <!-- move top -->
-    <div class="move-top text-right">
-        <a href="#home" class="move-top">
-            <span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+    <div>
+        <a class="top-link hide" href="" id="js-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+                <path d="M12 6H0l6-6z"></path>
+            </svg>
+            <span class="screen-reader-text">Back to top</span>
         </a>
     </div>
+
+    <script src="./scripts/scriptSmoothScrolling.js"></script>
     <!-- move top -->
 
     <!-- Java Script -->

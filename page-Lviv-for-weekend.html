@@ -16,15 +16,7 @@
     <meta property="og:image" content="images/Lviv-for-weekend-max.jpg">
     <!--End Open Graph data-->
 
-    <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
+    <link href="css/SmoothScrolling.css" rel="stylesheet"><!-- SmoothScrolling.css -->
 
     <!--favicon.ico-->
     <link rel="shortcut icon" href="./images/map-signs-solid.svg" />
@@ -499,46 +491,51 @@
             <!-- //copyright -->
 
             <!-- move top -->
-            <div class="move-top text-right">
-                <a href="#home" class="move-top">
-                    <span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+            <div>
+                <a class="top-link hide" href="" id="js-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+                        <path d="M12 6H0l6-6z"></path>
+                    </svg>
+                    <span class="screen-reader-text">Back to top</span>
                 </a>
             </div>
+
+            <script src="./scripts/scriptSmoothScrolling.js"></script>
             <!-- move top -->
     
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <!--<script src="/libs/fancybox/jquery.fancybox.js"></script>-->
-    <script>
-      $('[data-fancybox="gallery"]').fancybox({
-        buttons: [
-          "slideShow",
-          "thumbs",
-          "zoom",
-          "fullScreen",
-          "share",
-          "close"
-        ],
-        loop: false,
-        protect: true
-      });
-  </script>
 
-     <script>
-       console.log("Туры выходного дня 'Новый Поворот'");
-    </script>
+            <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+            <!--<script src="/libs/fancybox/jquery.fancybox.js"></script>-->
+            <script>
+              $('[data-fancybox="gallery"]').fancybox({
+                buttons: [
+                  "slideShow",
+                  "thumbs",
+                  "zoom",
+                  "fullScreen",
+                  "share",
+                  "close"
+                ],
+                loop: false,
+                protect: true
+              });
+          </script>
 
-    <script>
-        window.replainSettings = { id: 'd6700dc7-24e8-42c2-ad8d-fc8f31bc18e8' };
-        (function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-        var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-        })('https://widget.replain.cc/dist/client.js');
-    </script>
-    
+             <script>
+               console.log("Туры выходного дня 'Новый Поворот'");
+            </script>
+
+            <script>
+                window.replainSettings = { id: 'd6700dc7-24e8-42c2-ad8d-fc8f31bc18e8' };
+                (function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+                var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+                })('https://widget.replain.cc/dist/client.js');
+            </script>
+
 </body>
 
 </html>

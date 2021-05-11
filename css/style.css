@@ -5,10 +5,10 @@ body {
     background: #fff;
 	font-family: 'Raleway', sans-serif;
 }
-
+/*
 html {
   scroll-behavior: smooth;
-}
+}*/
 body a {
     text-decoration: none;
     transition: 0.5s all;

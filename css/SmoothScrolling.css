@@ -16,12 +16,12 @@
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
-            margin: 0 2em 7.5em 0;
+            margin: 0 2.1em 6.5em 0;
             border-radius: 5px;
             padding: 0.25em;
             width: 40px;
             height: 30px;
-            background-color: #0056b3;
+            background-color: #2580d3;
 
             z-index: 17;
         }
@@ -50,7 +50,7 @@
         }
 
         .top-link:hover svg {
-            fill: #0056b3;
+            fill: #2580d3;
         }
 
         .screen-reader-text {

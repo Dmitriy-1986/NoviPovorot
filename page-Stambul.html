@@ -8,8 +8,7 @@
     <meta charset="utf-8">
     <meta name="description"
         content="Туры выходного дня 'Новый поворот', Прогулка по Золотому Рогу, Оазис тишины, Между Европой и Азией, Центр Стамбула, Улица антикварных лавок ">
-    <!--<meta name="keywords"
-        content="Tуры выходного дня 'Новый поворот', Стамбул - столица тюльпанов, Стамбул_Запороже, мероприятия_Запорожья, афиша_Запорожье, экскурсии_Запорожье " />-->
+
     <!-- Open Graph data-->
     <meta property="og:title" content="Стамбул - столица тюльпанов!">
     <meta property="og:description"
@@ -19,15 +18,7 @@
     <meta property="og:image" content="images/Stambul-max.jpg">
     <!--End Open Graph data-->
 
-    <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
+    <link href="css/SmoothScrolling.css" rel="stylesheet"><!-- SmoothScrolling.css -->
 
     <!--favicon.ico-->
     <link rel="shortcut icon" href="./images/map-signs-solid.svg" />
@@ -574,7 +565,6 @@
                             <form action="https://novipovorot.us7.list-manage.com/subscribe/post?u=325c75dce90af10f77da58955&amp;id=2af7a2a416" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
                                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Введите адрес электронной почты..." required>
-                                   <!-- <input type="text" name="b_325c75dce90af10f77da58955_2af7a2a416" tabindex="-1" value="">-->
 
                                         <button class="btn1" id="mc-embedded-subscribe"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                                         <div class="clearfix"> </div>
@@ -597,11 +587,16 @@
     <!-- //copyright -->
 
     <!-- move top -->
-    <div class="move-top text-right">
-        <a href="#home" class="move-top">
-            <span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+    <div>
+        <a class="top-link hide" href="" id="js-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+                <path d="M12 6H0l6-6z"></path>
+            </svg>
+            <span class="screen-reader-text">Back to top</span>
         </a>
     </div>
+
+    <script src="./scripts/scriptSmoothScrolling.js"></script>
     <!-- move top -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

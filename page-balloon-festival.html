@@ -118,12 +118,12 @@
                         <div class="blog-date-time mb-2">
                             <ul class="listing mt-3">
                                 <li>
-                                    <span class="fa fa-calendar mr-2"></span>Дата: <span id="SocialDate">22-23 Мая 2021 Года</span>
+                                    <span class="fa fa-calendar mr-2"></span>Дата: <span class="dateOfTravel">22-23 Мая 2021 Года</span>
                                     <script>
-                                      let SocialDate = document.querySelector('SocialDate');
+                                      let dateOfTravel = document.querySelector('dateOfTravel');
                                          setInterval(function () {
-                                            SocialDate.classList.toggle('text-red');
-                                        }, 1500
+                                            dateOfTravel.classList.toggle('text-danger');
+                                        }, 1500 )
                                     </script>
                                 </li>
                             </ul>

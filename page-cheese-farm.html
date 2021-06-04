@@ -117,27 +117,26 @@
                         </div>
                         
                         <h4 class="mb-3">
-                          Сырная ферма и Пасека
+				<span id="сheeseFarm">Сырная ферма</span> и <span id="apiary">Пасека</span>
                         </h4>
                         
                        <p class="txt-alg-jf">
-                           ВЫ 100% ЕЩЕ ТУТ НЕ БЫЛИ ;)
+                           ВЫ 100% ЕЩЕ ТУТ НЕ БЫЛИ ;) <span id="ExcursionToZaporozhye">Экскурсия в Запорожье.</span>
                         </p>
                         <p class="txt-alg-jf">
-                            Удивительные нубийские козы, миниатрные коровы, самые вкусные сыры Запорожья и области!
-                            Вы такого еще не видели и не пробовали! 
+                            Удивительные нубийские козы, миниатрные коровы, самые вкусные сыры <span id="Zaporozhye">Запорожья и области!</span>
+                            Вы такого <span id="tourism">туризма</span> еще не видели и не пробовали! 
                             Сыры с Запорожской душой и поразительными вкусами от любителя до гурмана!
-                            Мы увидим милых козочек, узнаем секреты изготовления твердых и мягких сыров, 
+		            <span id="travels"> Путешествие</span> в котором мы увидим милых козочек, узнаем секреты изготовления твердых и мягких сыров, 
                             а еще попробуем свежее козье молочко и вкуснейший йогурт. 
                         </p>
-                        
-                         <div id="MoreDetails" style="display: none;">
-                         <p class="txt-alg-jf">
-                            Бывали у настоящих пчеловодов?!
+                        <p class="txt-alg-jf">
+		             Бывали у настоящих пчеловодов <span id="honeyExcursion">на медовой экскурсии</span>?!
                              Мы побываем в роли настоящего пасечника примерив
                              на себя защитный костюм, попробуем вкуснейший
                              сотовый мед и узнаем истории  пасеки и пчелок!
                          </p>
+                         <div id="MoreDetails" style="display: none;">
                          <p class="p-2 bg-warning text-white txt-alg-jf">
                              ТАКОГО ВЫ ЕЩЕ НЕ ВИДЕЛИ И НЕ ПРОБОВАЛИ! БРОНИРУЙТЕ УЖЕ СЕЙЧАС! МЕСТА ОГРАНИЧЕНЫ!
                              КТО БУДЕТ ДОЛГО ДУМАТЬ СИДИТ ДОМА И ЗАВИДУЕТ МОЛЧА 
@@ -511,16 +510,47 @@
                <p>
                 Тексты подсказок:
                </p>
-               <span class="badge rounded-pill bg-secondary text-white"> Запорожье</span>
-               <span class="badge rounded-pill bg-secondary text-white"> Новый Поворот Запорожье</span>
-               <span class="badge rounded-pill bg-secondary text-white"> Путешествия </span>
-               <span class="badge rounded-pill bg-secondary text-white"> Туризм </span>
-               <span class="badge rounded-pill bg-secondary text-white"> Сырная Ферма Запорожье </span>
-               <span class="badge rounded-pill bg-secondary text-white"> Пасека Запорожье </span>
-               <span class="badge rounded-pill bg-secondary text-white"> Медовая экскурсия  </span>
-               <span class="badge rounded-pill bg-secondary text-white"> Дегустация сыра </span>
-               <span class="badge rounded-pill bg-secondary text-white"> Дегустация меда </span>
-                      <!-- <div id="liqpay_checkout"></div>-->
+			
+		<span class="badge rounded-pill bg-secondary"> <a onclick="selectText('Zaporozhye')"
+                                class="text-white" title="Запорожье" href="#Zaporozhye" rel="tag">Запорожье</a></span>
+			
+                <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('ExcursionToZaporozhye')"
+                                class="text-white" title="Экскурсия в Запорожье" href="#ExcursionToZaporozhye">Экскурсия
+                                в Запорожье</a></span>
+			
+                <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('logo')"
+                                class="text-white" title="Новый Поворот Запорожье" href="#logo" rel="tag">Новый Поворот
+                                Запорожье</a></span>
+			
+                <span class="badge rounded-pill bg-secondary"> <a
+                                onclick="selectText('travels')" class="text-white"
+                                title="Путешествия" href="#travels" rel="tag">Путешествия
+			</a></span>
+			
+                <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('tourism')"
+                                class="text-white" title="Туризм" href="#tourism" rel="tag">Туризм
+			</a></span>
+			
+                <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('сheeseFarm')"
+                                class="text-white" title="Сырная Ферма Запорожье" href="#сheeseFarm" rel="tag">Сырная Ферма Запорожье
+			</a></span>	
+			
+               <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('apiary')"
+                                class="text-white" title="Пасека Запорожье" href="#apiary" rel="tag">Пасека Запорожье
+			</a></span>
+			
+	       <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('honeyExcursion')"
+                                class="text-white" title="Медовая экскурсия" href="#honeyExcursion" rel="tag">Медовая экскурсия
+			</a></span>
+			
+	       <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('WalkWithTwist')"
+                                class="text-white" title="Прогулка с изюминкой" href="#WalkWithTwist" rel="tag">Дегустация сыра
+			</a></span>
+			
+	       <span class="badge rounded-pill bg-secondary"> <a onclick="selectText('WalkWithTwist')"
+                                class="text-white" title="Прогулка с изюминкой" href="#WalkWithTwist" rel="tag">Дегустация меда
+			</a></span>
+
                     </div>
                 </div>
             </div>

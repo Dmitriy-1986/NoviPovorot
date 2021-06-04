@@ -714,6 +714,23 @@
    console.log("Туры выходного дня 'Новый Поворот'");
  </script>
 
+<!--Выделение текста при клике на хештэг-->
+    <script>
+        function selectText(containerid) {
+            if (document.selection) { // IE
+                var range = document.body.createTextRange();
+                range.moveToElementText(document.getElementById(containerid));
+                range.select();
+            } else if (window.getSelection) {
+                var range = document.createRange();
+                range.selectNode(document.getElementById(containerid));
+                window.getSelection().removeAllRanges();
+                window.getSelection().addRange(range);
+            }
+        }
+    </script>
+    <!--//Выделение текста при клике на хештэг-->
+
    <script>
         window.replainSettings = { id: 'd6700dc7-24e8-42c2-ad8d-fc8f31bc18e8' };
         (function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;

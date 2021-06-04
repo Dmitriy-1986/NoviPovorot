@@ -33,6 +33,11 @@
     <link rel="stylesheet" href="./libs/fancybox/gallery-style.css">
     <!-- //Fancybox  -->
 
+    <!-- owl-carousel -->
+    <link href="./libs/owl-carousel/owl.carousel.min.css" rel="stylesheet" type='text/css' />
+    <link href="./libs/owl-carousel/owl.theme.default.min.css" rel="stylesheet" type='text/css' />
+    <!-- //owl-carousel -->
+    
     <!-- google fonts -->
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
         rel="stylesheet">
@@ -470,6 +475,47 @@
                                 </li>
                             </ul>
                         </div>
+                    <!-- owl-carousel -->
+               <div class="owl-carousel owl-theme" style="margin: 0 auto; padding-bottom: 30px;">
+                  <div>
+                    <img src="/images/Beer/beer-1.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+                  <div>
+                    <img src=" /images/Beer/beer-2.jpg " alt="beer" class="img-fluid abt-image" />
+                  </div>
+                  <div>
+                    <img src="/images/Beer/beer-3.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+                  <div>
+                    <img src="/images/Beer/beer-4.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+                 <div>
+                    <img src="/images/Beer/beer-5.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+                  <div>
+                    <img src="/images/Beer/beer-6.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+                  <div>
+                    <img src="/images/Beer/beer-7.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+		          <div>
+                    <img src="/images/Beer/beer-8.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+		          <div>
+                    <img src="/images/Beer/beer-9.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+		          <div>
+                    <img src="/images/Beer/beer-10.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+                  <div>
+                    <img src="/images/Beer/beer-11.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+                  <div>
+                    <img src="/images/Beer/beer-12.jpg" alt="beer" class="img-fluid abt-image" />
+                  </div>
+               </div>
+               <!-- //owl-carousel -->
+                    
                      <hr>
                <p>
                 Тексты подсказок:
@@ -627,9 +673,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
-
+    <!-- fancybox -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <!--<script src="/libs/fancybox/jquery.fancybox.js"></script>-->
     <script>
       $('[data-fancybox="gallery"]').fancybox({
         buttons: [
@@ -644,6 +689,36 @@
         protect: true
       });
   </script>
+  <!-- //fancybox -->
+
+  <!-- owl-carousel -->
+  <script src="./libs/owl-carousel/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+        items: 5,
+        loop: true,
+        nav: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+       });
+    });
+ </script>
+ <!-- //owl-carousel -->
+
  <script>
    console.log("Туры выходного дня 'Новый Поворот'");
  </script>

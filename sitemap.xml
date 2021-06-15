@@ -1,160 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://novipovorot.pp.ua/</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://novipovorot.pp.ua/</loc>
+	<lastmod>2021-06-15T17:14:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/index.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/index.html</loc>
+	<lastmod>2021-06-15T17:14:25+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/about.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/about.html</loc>
+	<lastmod>2021-06-15T17:14:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/packages.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/packages.html</loc>
+	<lastmod>2021-06-15T17:14:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/contact.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/contact.html</loc>
+	<lastmod>2021-06-15T17:14:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/booking.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/booking.html</loc>
+	<lastmod>2021-06-15T17:14:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Beer.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-Beer.html</loc>
+	<lastmod>2021-06-15T17:14:28+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-cheese-farm.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-cheese-farm.html</loc>
+	<lastmod>2021-06-15T17:14:29+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Pink-Lake.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-Pink-Lake.html</loc>
+	<lastmod>2021-06-15T17:14:29+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-lions-and-horses.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-lions-and-horses.html</loc>
+	<lastmod>2021-06-15T17:14:29+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-balloon-festival.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-balloon-festival.html</loc>
+	<lastmod>2021-06-15T17:14:29+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Zaporizhzhia-on-Dnieper.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-Zaporizhzhia-on-Dnieper.html</loc>
+	<lastmod>2021-06-15T17:14:29+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Kharkov.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-Kharkov.html</loc>
+	<lastmod>2021-06-15T17:14:32+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-yavorovskaya-niagara.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-yavorovskaya-niagara.html</loc>
+	<lastmod>2021-06-15T17:14:30+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-gold-mines.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-gold-mines.html</loc>
+	<lastmod>2021-06-15T17:14:30+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Lviv-for-weekend.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-Lviv-for-weekend.html</loc>
+	<lastmod>2021-06-15T17:14:30+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-zoo.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-zoo.html</loc>
+	<lastmod>2021-06-15T17:14:30+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Hortica.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-Hortica.html</loc>
+	<lastmod>2021-06-15T17:14:30+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-wine.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-wine.html</loc>
+	<lastmod>2021-06-15T17:14:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Turkey.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-Turkey.html</loc>
+	<lastmod>2021-06-15T17:14:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Karpati.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-Karpati.html</loc>
+	<lastmod>2021-06-15T17:14:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Georgia.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://novipovorot.pp.ua/page-Georgia.html</loc>
+	<lastmod>2021-06-15T17:14:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Stambul.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://novipovorot.pp.ua/page-Svyatogorsk-and-Soledar.html</loc>
+	<lastmod>2021-06-15T17:14:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-cofe-Isla.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://novipovorot.pp.ua/page-Stambul.html</loc>
+	<lastmod>2021-06-15T17:14:31+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/packages-page-two.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://novipovorot.pp.ua/page-cofe-Isla.html</loc>
+	<lastmod>2021-06-15T17:14:32+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-TicToc-pati.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://novipovorot.pp.ua/packages-page-two.html</loc>
+	<lastmod>2021-06-15T17:14:32+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-eight-march.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://novipovorot.pp.ua/page-yavorovskaya-niagara.html#!</loc>
+	<lastmod>2021-06-15T17:14:32+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Odessa-on-march.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://novipovorot.pp.ua/page-TicToc-pati.html</loc>
+	<lastmod>2021-06-15T17:14:32+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-LOL.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://novipovorot.pp.ua/page-eight-march.html</loc>
+	<lastmod>2021-06-15T17:14:32+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://novipovorot.pp.ua/page-Limonariy.html</loc>
-  <lastmod>2021-06-05T11:17:16+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://novipovorot.pp.ua/page-Odessa-on-march.html</loc>
+	<lastmod>2021-06-15T17:14:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
-
-
+<url>
+	<loc>https://novipovorot.pp.ua/page-LOL.html</loc>
+	<lastmod>2021-06-15T17:14:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://novipovorot.pp.ua/page-Limonariy.html</loc>
+	<lastmod>2021-06-15T17:14:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 </urlset>

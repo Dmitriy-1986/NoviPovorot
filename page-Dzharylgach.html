@@ -110,7 +110,7 @@
                             <ul class="listing mt-3">
                                 <li>
                                     <!-- Дата -->
-                                    <span class="fa fa-calendar mr-2"></span>Дата: <span>24 - 25 Июля  </span>
+                                    <span class="fa fa-calendar mr-2"></span>Дата: <span  class="dateOfTravel">24 - 25 Июля  </span>
                                     <!-- //Дата -->
                                 </li>
                             </ul>
@@ -794,8 +794,15 @@
         (function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
         var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
         })('https://widget.replain.cc/dist/client.js');
-    </script>    
-    
+    </script>
+
+   <script>
+        let travel = document.querySelector('.dateOfTravel');
+        setInterval(function () {
+            travel.classList.toggle('text-danger');
+        }, 1500)
+    </script>
+
 </body>
 
 </html>

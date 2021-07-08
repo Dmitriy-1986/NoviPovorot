@@ -1,12 +1,6 @@
 AddCharset UTF-8  .html 
 ErrorDocument 404 /404.html
 
-# редирект с about на about.html
-RewriteEngine On
-RewriteCond %{HTTPS_HOST} novipovorot.pp.ua/about
-RewriteRule (.*) novipovorot.pp.ua/about.html/$1 [R=301,L]
-
-
 # кеш браузера
 <ifModule mod_expires.c>
 ExpiresActive On

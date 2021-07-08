@@ -2,8 +2,7 @@ AddCharset UTF-8  .html
 ErrorDocument 404 /404.html
 
 # редирект 
-RewriteCond %{REQUEST_URI} ^/about/$
-RewriteRule ^.*$ https://novipovorot.pp.ua/about.html/? [R=301,L]
+Redirect 301 /novipovorot.pp.ua/about/ https://novipovorot.pp.ua/about.html/
 
 # кеш браузера
 <ifModule mod_expires.c>

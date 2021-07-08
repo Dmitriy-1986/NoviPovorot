@@ -2,7 +2,7 @@ AddCharset UTF-8  .html
 ErrorDocument 404 /404.html
 
 # редирект 
-Redirect 301 /about/ https://novipovorot.pp.ua/about.html/
+#Redirect 301 /about/ https://novipovorot.pp.ua/about.html/
 
 # кеш браузера
 <ifModule mod_expires.c>

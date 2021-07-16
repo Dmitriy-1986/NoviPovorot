@@ -1,7 +1,4 @@
 AddCharset UTF-8  .html 
 ErrorDocument 404 /404.html
 
-#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /about\.(html)\ HTTPS/  
-#RewriteRule ^(.*)about\.(html)$ https://novipovorot.pp.ua/$1 [R=301,L]  
-
-#Redirect 301 /about https://novipovorot.pp.ua/about.html
+#Redirect 301 /about novipovorot.pp.ua/about.html

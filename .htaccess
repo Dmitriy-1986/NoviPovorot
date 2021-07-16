@@ -3,7 +3,7 @@ ErrorDocument 404 /404.html
 
 # редирект 
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^.]+)$ /$https://novipovorot.pp.ua/about.html [R=301,L]
+RewriteRule ^([^.]+)$ /$novipovorot.pp.ua/about.html [R=301,L]
 
 #Redirect 301 /about/ https://novipovorot.pp.ua/about.html/
 

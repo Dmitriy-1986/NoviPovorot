@@ -1,4 +1,4 @@
 AddCharset UTF-8  .html 
 ErrorDocument 404 /404.html
 
-#Redirect 301 /about novipovorot.pp.ua/about.html
+Redirect 301 /about novipovorot.pp.ua/about.html

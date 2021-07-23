@@ -5,6 +5,21 @@ h3.heading, h4.heading {
     line-height: 1.2;
     font-family: 'Raleway', sans-serif;
 }
+.radius-image {
+    border-radius: 5px;
+}
+.w3l-homeblock1 a.blog-desc-big, .w3l-blog-slider a.blog-desc-big, .w3l-blog-block2 a.blog-desc-big, .w3l-author a.blog-desc-big {
+    display: block;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #292922;
+    margin-bottom: 20px;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
 .w3l-homeblock1 .trending .grids5-info, .w3l-blog-slider .trending .grids5-info, .w3l-blog-block2 .trending .grids5-info, .w3l-author .trending .grids5-info {
     display: grid;
     grid-template-columns: 40px 1fr;

@@ -1,1 +1,35 @@
-
+h3.heading, h4.heading {
+    margin: 0;
+    color: #323648;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Raleway', sans-serif;
+}
+h3.heading {
+    font-size: 43px;
+}
+.text-capitalize {
+    text-transform: capitalize!important;
+}
+.text-center {
+    text-align: center!important;
+}
+.text {
+    max-width: 700px;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    color: #707579;
+    font-family: 'Open Sans', sans-serif;
+}
+h3.section-title-left {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 0.3em;
+    position: relative;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ddd;
+}

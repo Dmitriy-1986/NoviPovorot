@@ -51,6 +51,14 @@ h3.section-title-left {
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
+.w3l-homeblock1 .card, .w3l-blog-slider .card, .w3l-blog-block2 .card, .w3l-author .card {
+    border: none;
+    background: transparent;
+}
+.w3l-homeblock1 .author a, .w3l-blog-slider .author a, .w3l-blog-block2 .author a, .w3l-author .author a {
+    color: #292922;
+    font-weight: 400;
+}
 .w3l-homeblock1 a.blog-desc1, .w3l-blog-slider a.blog-desc1, .w3l-blog-block2 a.blog-desc1, .w3l-author a.blog-desc1 {
     display: block;
     font-size: 20px;

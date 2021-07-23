@@ -5,6 +5,14 @@ h3.heading, h4.heading {
     line-height: 1.2;
     font-family: 'Raleway', sans-serif;
 }
+.w3l-homeblock1 .trending .grids5-info, .w3l-blog-slider .trending .grids5-info, .w3l-blog-block2 .trending .grids5-info, .w3l-author .trending .grids5-info {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-gap: 10px;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
 h3.heading {
     font-size: 43px;
 }

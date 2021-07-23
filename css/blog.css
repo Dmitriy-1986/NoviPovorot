@@ -236,6 +236,49 @@ h3.section-title-left {
       width: 100%; } }
 
 
+.w3l-homeblock1 .list-view .grids5-info, .w3l-blog-slider .list-view .grids5-info, .w3l-blog-block2 .list-view .grids5-info, .w3l-author .list-view .grids5-info {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  grid-gap: 5%; }
+
+.w3l-homeblock1 .list-view.list-view1 .grids5-info, .w3l-blog-slider .list-view.list-view1 .grids5-info, .w3l-blog-block2 .list-view.list-view1 .grids5-info, .w3l-author .list-view.list-view1 .grids5-info {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  grid-gap: 5%; }
+
+
+@media (max-width: 736px) {
+  .w3l-homeblock1 .list-view .grids5-info, .w3l-blog-slider .list-view .grids5-info, .w3l-blog-block2 .list-view .grids5-info, .w3l-author .list-view .grids5-info {
+    display: block; }
+  .w3l-homeblock1 .trending .grids5-info:last-child, .w3l-blog-slider .trending .grids5-info:last-child, .w3l-blog-block2 .trending .grids5-info:last-child, .w3l-author .trending .grids5-info:last-child {
+    display: grid; } }
+
+@media (max-width: 736px) {
+  .w3l-startup .list-view .grids5-info {
+    display: block; } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

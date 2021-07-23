@@ -173,7 +173,37 @@ h3.section-title-left {
 
 .card-deck .card {
   margin-bottom: 15px; }
+.card-img-bottom {
+    width: 100%;
+    border-bottom-right-radius: calc(.25rem - 1px);
+    border-bottom-left-radius: calc(.25rem - 1px);
+}
+.w3l-homeblock1 a.blog-desc, .w3l-blog-slider a.blog-desc, .w3l-blog-block2 a.blog-desc, .w3l-author a.blog-desc {
+    display: block;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+}
 
+element.style {
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #696969;
+    font-family: 'Open Sans', sans-serif;
+}
 @media (min-width: 576px) {
   .card-deck {
     display: flex;

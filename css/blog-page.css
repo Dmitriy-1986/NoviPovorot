@@ -102,6 +102,15 @@ h3.blog-desc-big {
     margin: auto;
 }
 
+.text-list ol li {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 12px 0;
+    color: #292922;
+    list-style-type: decimal;
+    font-weight: 600;
+}
+
 .d-grid {
   display: grid; }
 
@@ -199,14 +208,7 @@ h1.error-title {
     max-width: 650px;
     text-align: center; } }
 
-.text-list ol li {
-    font-size: 18px;
-    line-height: 26px;
-    margin: 12px 0;
-    color: #292922;
-    list-style-type: decimal;
-    font-weight: 600;
-}
+
 
 
 

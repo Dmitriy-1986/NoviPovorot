@@ -81,14 +81,60 @@ span.big-letter {
     left: 0px;
 }
 
+.blog-post-main .blockquote-footer {
+    display: flex;
+    align-items: center;
+    color: #999;
+}
+
+h3.blog-desc-big {
+    display: block;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    max-width: 700px;
+    margin: auto;
+}
+
+.d-grid {
+  display: grid; }
+
+.left-right {
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+  justify-content: space-between; }
 
 
+.buttons-singles h4 {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 24px;
+  font-weight: 600; }
 
+.buttons-singles a {
+  color: #999;
+  font-size: 18px;
+  margin-right: 10px;
+  display: inline-block; }
 
+.buttons-singles a:hover {
+  color: #0085ad; }
 
-
-
-
+.buttons-singles.tags a {
+  color: #696969;
+  font-size: 16px;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid  #ddd;
+  font-weight: 500;
+  border-radius: 5px; }
 
 
 

@@ -955,14 +955,15 @@ h4.destination {
     margin: 0;
     background: rgba(0, 0, 0, 0.8);
     padding: 30px 0px 10px;
-    transition: .5s all;
+    /*transition: .5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
+    -ms-transition: 0.5s all;*/
 	left: 15px;
 	right:15px;
     text-align: center;
+    transition-duration: 0.8s;
 }
 
 .destinations-grids:hover div.destinations-info {

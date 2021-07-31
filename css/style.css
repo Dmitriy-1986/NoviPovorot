@@ -140,9 +140,11 @@ ul {
     padding: 0;
 }
 
+.txt-uline:hover {
+    text-decoration: underline;
+}
 
 /*-- header --*/
-
 header {
     position: absolute;
     z-index: 9;

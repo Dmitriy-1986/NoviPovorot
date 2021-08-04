@@ -882,6 +882,18 @@ p.text {
     color: #707579;
     text-transform: capitalize;
 }
+
+/*Добавлено 04.08.21*/
+.image-tour {
+    transition: 1s; 
+    display: block; 
+    overflow: hidden;
+}
+.image-tour:hover {
+    transform: scale(1);
+}
+/*Добавлено 04.08.21*/
+
 .image-tour p {
     position: absolute;
     right: 1%;

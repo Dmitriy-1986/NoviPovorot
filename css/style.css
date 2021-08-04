@@ -884,12 +884,12 @@ p.text {
 }
 
 /*Добавлено 04.08.21*/
-.image-tour {
+.image-tour img {
     transition: 1s; 
     display: block; 
     overflow: hidden;
 }
-.image-tour:hover {
+.image-tour img:hover {
     transform: scale(1);
 }
 /*Добавлено 04.08.21*/

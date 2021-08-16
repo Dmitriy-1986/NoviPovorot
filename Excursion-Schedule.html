@@ -103,19 +103,19 @@
                               <tbody>
 				  
 					<tr>
-					  <th scope="row">1</th>
+					  <th scope="row"></th>
 					  <td>Львята И Лошадки</td>
 					  <td>07 Августа</td>
 					</tr>
 
 					<tr>
-					  <th scope="row">2</th>
+					  <th scope="row"></th>
 					  <td>Сырная Ферма И Пасека</td>
 					  <td>15 Августа</td>
 					</tr>
 				      
 				       <tr>
-					  <th scope="row">3</th>
+					  <th scope="row"></th>
 					  <td>Аскания Нова Сафари</td>
 					  <td>23 - 24 Августа</td>
 				       </tr>
@@ -358,6 +358,13 @@
         var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
         })('https://widget.replain.cc/dist/client.js');
     </script>
+	
+    <script>
+	$('.table tbody tr').each(function(i) {
+		var number = i + 1;
+		$(this).find('th:first').text(number+".");
+	});
+     </script>
 
 </body>
 

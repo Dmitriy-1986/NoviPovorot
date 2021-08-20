@@ -1,1 +1,1 @@
-<a href="htpps://novipovorot.pp.ua">NoviPovorot</a>
+<a href="https://novipovorot.pp.ua">NoviPovorot</a>

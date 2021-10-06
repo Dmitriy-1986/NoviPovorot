@@ -143,13 +143,13 @@
                             <!-- //Подзаголовок -->
                       
                             <!-- Описание прогарммы тура -->
-                            <p class="txt-alg-jf">
+                            <p class="txt-alg-jf tour-program-description-1">
                               Описание прогарммы тура
                             </p> 
-                            <p class="txt-alg-jf">
+                            <p class="txt-alg-jf tour-program-description-2">
                               Описание прогарммы тура
                             </p>
-                            <p class="txt-alg-jf">
+                            <p class="txt-alg-jf tour-program-description-3">
                               Описание прогарммы тура
                             </p>
                             <!-- Описание прогарммы тура -->
@@ -178,14 +178,14 @@
                                  <strong>-Цена- грн.</strong>;
                                  <hr>
                                  <i>*Примечание </i>
-				    до 3х бесплатно(без предоставления отдельного места в транспорте)
+				    до 3х бесплатно (без предоставления отдельного места в транспорте)
                             </span>
                         </div>
                         <!-- //Информируем -->
                       
                         <!-- Стоимость, Продолжительность -->
                         <ul class="listing">
-                            <li><span class="fa fa-tags mr-2"></span> Стоимость: <span> -Цена- Грн. </span></li>
+                            <li><span class="fa fa-tags mr-2"></span> Стоимость: <span class="tour-cost"></span></li>
                             <li><span class="fa fa-clock-o mr-2"></span> Продолжительность: <span> 1 День</span></li>
                         </ul>
                         <!-- //Стоимость, Продолжительность -->
@@ -885,10 +885,22 @@
     </script>
 
     <script>
+	    //Название тура
 	    document.querySelector('.tour-title').innerText = 'Название тура';
+	    //Ссылка на картинку
 	    document.querySelector('.tour-picture').src = './images/Volnogorsk-Maldives/inside-Volnogorsk-Maldives.jpg';
+	    //Дата тура
 	    document.querySelector('.tour-date').innerText = 'Дата тура';
+	    //Подзаголовок
 	    document.querySelector('.tour-subtitle').innerText = 'Подзаголовок';
+	    //Описание прогарммы тура
+	    document.querySelector('.tour-program-description-1').innerText = 'Описание прогарммы тура';
+	    document.querySelector('.tour-program-description-2').innerText = 'Описание прогарммы тура';
+	    document.querySelector('.tour-program-description-3').innerText = 'Описание прогарммы тура';
+	    //Стоимость
+	    document.querySelector('.tour-cost').innerText = 'Стоимость';
+	    
+	    
 	    
 	     
     </script>

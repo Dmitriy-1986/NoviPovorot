@@ -22,8 +22,8 @@
     <meta property="og:title" content="СЫРНАЯ ФЕРМА С ДЕГУТАЦИЕЙ">
     <meta property="og:description" content="СЫРНАЯ ФЕРМА С ДЕГУСТАЦИЕЙ 7 ВИДОВ СЫРА, ЙОГУРТА И МОЛОКА! САМАЯ ВКУСНАЯ ЭКСКУРСИЯ" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://novipovorot.pp.ua/page-cheese-farmу" />
-    <meta property="og:image" content="Картинка">
+    <meta property="og:url" content="https://novipovorot.pp.ua/page-cheese-farm-tasting" />
+    <meta property="og:image" content="images/cheese-farm/cheese-farm/inside-cheese-farm.jpg">
     <!-- //Open Graph -->
 
     <link href="css/SmoothScrolling.css" rel="stylesheet"><!-- SmoothScrolling.css -->
@@ -109,7 +109,7 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a class="text-primary" href="index.html">Главная</a></li>
                             <li class="breadcrumb-item"><a class="text-primary" href="packages.html">Туры</a></li>
-                            <!--<li class="breadcrumb-item"><a class="text-primary" href="packages-page-two.html">Туры, стр.2</a></li>-->
+                            <!--<li class="breadcrumb-item"><a class="text-primary" href="packages-page-two.html">Туры, стр.1</a></li>-->
                           <!-- Название тура -->
                             <li class="breadcrumb-item active tour-title" aria-current="page"></li>
                           <!-- //Название тура -->
@@ -126,7 +126,7 @@
                 <div class="col-lg-8 col-xl-9 blog-left-sub">
                     
                     <!-- Картинка -->
-                    <img src="Ссылка на картинку" alt="Картинка" class="img-fluid tour-picture">  
+                    <img src="images/cheese-farm/cheese-farm/inside-cheese-farm.jpg" alt="Картинка" class="img-fluid tour-picture">  
                     <!-- //Картинка -->
                     
                     <div class="blog-two-two">
@@ -134,7 +134,7 @@
                             <ul class="listing mt-3">
                                 <li>
                                     <!-- Дата -->
-                                    <span class="fa fa-calendar mr-2"></span>Дата: <span class="dateOfTravel tour-date"></span>
+                                    <span class="fa fa-calendar mr-2"></span> 24 октября и 13 ноября<span class="dateOfTravel tour-date"></span>
                                     <!-- //Дата-->
                                 </li>
                             </ul>
@@ -145,13 +145,13 @@
                       
                             <!-- Описание прогарммы тура -->
                             <p class="txt-alg-jf tour-program-description-1">
-                              Описание прогарммы тура
+                            Настоящая сырная ферма! Прямо в городе! Супер вкусное мега милое место! 
                             </p> 
                             <p class="txt-alg-jf tour-program-description-2">
-                              Описание прогарммы тура
+                            Побывай на экскурсии с дегустацией 7 видов сыра... Покорми козочек и сделай крутое селфи
                             </p>
                             <p class="txt-alg-jf tour-program-description-3">
-                              Описание прогарммы тура
+                            Подойдет от 0 до 10000 лет🙂, все будут в восторге! 
                             </p>
                             <!-- Описание прогарммы тура -->
                      </div>
@@ -164,30 +164,23 @@
 
                             <span class="fa fa-info-circle"></span><strong> Информируем</strong><br /><br />
                             <span class="txt-alg-jf">
-                                Цена билета до <strong class="ticket-price-before-Date-1"></strong>: взрослые 
-                                 <strong class="adult-ticket-price-Date-1"></strong> грн.,
-                                   дети  от 3 до 12 лет 
-                                 <strong>-Цена- грн.</strong>;
-				  дети от 13 до 17 лет
-                                  <strong>-Цена- грн.</strong>;   
-                                 <hr>
-                                 С -Дата- : взрослые 
-                                 <strong>-Цена- грн.</strong>, 
-                                   дети от 3 до 12 лет
-                                 <strong>-Цена- грн.</strong>;
-				    дети от 13 до 17 лет
-                                 <strong>-Цена- грн.</strong>;
-                                 <hr>
+                                Цена билета при брони до <strong class="ticket-price-before-Date-1"></strong>: 15.10 взрослые 
+                                 <strong class="adult-ticket-price-Date-1"></strong> 220 грн.,
+                                  <hr>
+                                 при брони с 1 до 23 октября : взрослые 
+                                 <strong>-Цена- 240 грн.</strong>, 
+                                  <hr>
                                  <i>*Примечание </i>
-				    до 3х бесплатно (без предоставления отдельного места в транспорте)
+				 до 4х лет бесплатно без участия в дегустации. При брони 10 мест, 11 бесплатно!
+                                 Бери с собой друзей и родных, это будет круто!
                             </span>
                         </div>
                         <!-- //Информируем -->
                       
                         <!-- Стоимость, Продолжительность -->
                         <ul class="listing">
-                            <li><span class="fa fa-tags mr-2"></span> Стоимость: <span class="tour-cost"></span></li>
-                            <li><span class="fa fa-clock-o mr-2"></span> Продолжительность: <span class="tour-duration"></span></li>
+                            <li><span class="fa fa-tags mr-2"></span> Стоимость: 220 грн<span class="tour-cost"></span></li>
+                            <li><span class="fa fa-clock-o mr-2"></span> Продолжительность: 1 день <span class="tour-duration"></span></li>
                         </ul>
                         <!-- //Стоимость, Продолжительность -->
 
@@ -261,23 +254,19 @@
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         
-                                        <p class="txt-alg-jf"> <strong> Время </strong>
-                                         Описание
+                                        <p class="txt-alg-jf"> <strong> 12:00 </strong>
+                                        сбор группы ост. Ладожская(Бородинский м-н Запорожье), небольшая прогулка к месту начала экскурсии после минутки позитива. 
                                          </p>
-                                         <p class="txt-alg-jf"> <strong> Время </strong>
-                                         Описание
+                                         <p class="txt-alg-jf"> <strong> 12:15 </strong>
+                                         мимишная экскурсия к козочкам, коровкам, курочкам и остальным обитателям фермы. Можно гладить, кормить и делать шикарные фото. 
+                                         Дегустация 7 видов сыра, морока и йогурта. Тут мягкие сыры как крем и твердые созревшие, сыры с травами, плесенью, кальцием и 
+					 множество других самых неожиданных сыров ждут Вас❤️  
+					 После дегустации все смогут купить понравившийся сыр в уютном магазине Сырной Фермы. 
                                          </p>
-                                         <p class="txt-alg-jf"> <strong> Время </strong>
-                                         Описание
-                                         </p>
-                                        <p class="txt-alg-jf"> <strong> Время </strong>
-                                         Описание
-                                         </p>
-                                        <p class="txt-alg-jf"><strong> 18:00 </strong>
-                                            Мы уже в Запорожье, довольные возвращаемся домой чтоб поделиться 
-                                            впечатлениями с друзьями и близкими (но еще лучше их взять с собой).<br>
-                                            Выкладываем сториз и посты в 
-                                          
+                                         <p class="txt-alg-jf"><strong> 14:15 </strong>
+                                            Сытые и довольные, с сыром и молоком отправляемся домой кормить всех знакомых вкуснейшими лакомствами. Но лучше их взять с собой, 
+					    ведь вместе вкуснее<br>
+                                            Выкладываем сториз и посты в                                      
 <!-- В ссылках соц.сетей, необходимо исправить ссылку на данную страницу -->
                                           
                                              <!-- instagram -->
@@ -354,7 +343,7 @@
                                             </a>,
                                             <!-- Facebook -->
                                             <a title="Facebook"
-                                                href="https://www.facebook.com/sharer/sharer.php?u=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://www.facebook.com/sharer/sharer.php?u=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank" rel="noopener">
                                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -377,13 +366,13 @@
                                           
                                             <!-- //Facebook -->
                                             <a title="Facebook"
-                                                href="https://www.facebook.com/sharer/sharer.php?u=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://www.facebook.com/sharer/sharer.php?u=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank" rel="noopener">
                                                 Facebook
                                             </a>,
                                             <!-- Telegram -->
                                             <a title="Telegram"
-                                                href="https://t.me/share/url?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://t.me/share/url?url=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank">
                                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -484,7 +473,7 @@
                                                 </svg>
                                             </a>
                                             <a title="Telegram"
-                                                href="https://t.me/share/url?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://t.me/share/url?url=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank">
                                                 Telegram
                                             </a>,
@@ -494,7 +483,7 @@
                                           
                                             <!-- Twitter -->
                                             <a title="Twitter"
-                                                href="https://twitter.com/intent/tweet?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://twitter.com/intent/tweet?url=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank">
                                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -584,7 +573,7 @@
 
                                             </a>
                                             <a title="Twitter"
-                                                href="https://twitter.com/intent/tweet?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://twitter.com/intent/tweet?url=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank">
                                                 Twitter
                                             </a>,
@@ -594,13 +583,13 @@
                                           
                                           <!-- Viber -->
                                             <a title="Viber"
-                                                href="viber://forward?text=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="viber://forward?text=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank">
                                                 <img src="images/viber.jpg" alt="viber" height="25px"
                                                     style="margin-top:-17px;">
                                             </a>
                                             <a title="Viber"
-                                                href="viber://forward?text=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="viber://forward?text=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank">
                                                 Viber
                                             </a>,
@@ -609,12 +598,12 @@
   <!-- В ссылках соц.сетей, необходимо исправить ссылку на данную страницу -->
                                           
                                             <!-- VK -->
-                                            <a href="https://vk.com/share.php?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                            <a href="https://vk.com/share.php?url=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank">
                                                 <img src="images/vk.jpg" alt="vk" height="25px"
                                                     style="margin-top:-17px;">
                                             </a>
-                                            <a href="https://vk.com/share.php?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                            <a href="https://vk.com/share.php?url=https://novipovorot.pp.ua/page-cheese-farm-tasting.html"
                                                 target="_blank">
                                                 VK
                                             </a>
@@ -642,15 +631,21 @@
                             <ul class="list-group list-group-flush">
                               
                                 <li class="list-group-item list-group-item-success">
-                                   Описание
+                                экскурсия по сырной ферме и общение с животными;
                                 </li>
                                 <li class="list-group-item list-group-item-success">
-                                   Описание 
+                                Дегустация 7 видов сыра, 2 вида молока и 1 вид йогурта.
                                 </li>
                                  <li class="list-group-item list-group-item-success">
-                                     Описание 
+                                 Супер-позитивное сопровождение представителя Нового поворота;
+				</li>
+                                 <li class="list-group-item list-group-item-success">
+				 Магнит-подарок от Нового поворота.
 				 </li>
-				    
+                                 <li class="list-group-item list-group-item-success">  
+				 Прекрасное настроение и вера в чудеса
+				  </li>
+                                 <li class="list-group-item list-group-item-success">  
                             </ul>
                         </div>
 
@@ -659,13 +654,10 @@
                             <ul class="list-group list-group-flush">
                               
                                 <li class="list-group-item list-group-item-danger ">
-                                  Описание
+                                Проезд до места начала экскурсии и обратно
                                 </li>
                                 <li class="list-group-item list-group-item-danger ">
-                                  Описание
-                                </li>
-                                <li class="list-group-item list-group-item-danger ">
-                                  Описание
+                                 Индивидуальная покупка сыра 45-60 грн/100г; йогурт, молока, масла, сметаны
                                 </li>
                               
                             </ul>

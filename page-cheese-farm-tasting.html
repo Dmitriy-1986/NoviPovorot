@@ -111,7 +111,7 @@
                             <li class="breadcrumb-item"><a class="text-primary" href="packages.html">Туры</a></li>
                             <!--<li class="breadcrumb-item"><a class="text-primary" href="packages-page-two.html">Туры, стр.1</a></li>-->
                           <!-- Название тура -->
-                            <li class="breadcrumb-item active tour-title" aria-current="page"></li>
+                            <li class="breadcrumb-item active tour-breadcrumb" aria-current="page"></li>
                           <!-- //Название тура -->
                         </ol>
                     </nav>
@@ -882,6 +882,8 @@
 
     <!-- Содержание -->
     <script>
+	    //Хлебные крошки
+	    document.getElementsByClassName('.tour-breadcrumb').innerText = 'Сырная ферма с дегустацией';
 	    //Название тура
 	    document.getElementsByClassName('.tour-title').innerText = 'Сырная ферма с дегустацией';
 	    //Ссылка на картинку

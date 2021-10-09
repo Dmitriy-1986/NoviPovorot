@@ -1,9 +1,9 @@
 {
-    "tourBreadcrumb": "1",
-    "tourTitle": "1",
-    "tourPicture": "1",
-    "tourDate": "1",
-    "tourSubtitle": "1",
+    "tourBreadcrumb": "tourTitle",
+    "tourTitle": "tourTitle",
+    "tourPicture": "tourPicture",
+    "tourDate": "tourDate",
+    "tourSubtitle": "tourSubtitle",
     "tourProgramDescription": [
       "Description1: ",
       "Description2: ",

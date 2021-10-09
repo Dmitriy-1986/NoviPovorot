@@ -110,7 +110,7 @@
                             <li class="breadcrumb-item"><a class="text-primary" href="packages.html">Туры</a></li>
                             <!--<li class="breadcrumb-item"><a class="text-primary" href="packages-page-two.html">Туры, стр.2</a></li>-->
                           <!-- Название тура -->
-                            <li class="breadcrumb-item active tour-title" aria-current="page"></li>
+                            <li class="breadcrumb-item active" aria-current="page"></li>
                           <!-- //Название тура -->
                         </ol>
                     </nav>
@@ -119,13 +119,13 @@
 
                 <div class="col-lg-8 col-xl-9 main-title-text">
                     <!-- Заголовок -->
-                    <h3 class="title tour-title"></h3>
+                    <h3 class="title"></h3>
                     <!-- //Заголовок -->
                 </div>
                 <div class="col-lg-8 col-xl-9 blog-left-sub">
                     
                     <!-- Картинка -->
-                    <img src="Ссылка на картинку" alt="Картинка" class="img-fluid tour-picture">  
+                    <img src="Ссылка на картинку" alt="Картинка" class="img-fluid">  
                     <!-- //Картинка -->
                     
                     <div class="blog-two-two">
@@ -133,23 +133,23 @@
                             <ul class="listing mt-3">
                                 <li>
                                     <!-- Дата -->
-                                    <span class="fa fa-calendar mr-2"></span>Дата: <span class="dateOfTravel tour-date"></span>
+                                    <span class="fa fa-calendar mr-2"></span>Дата: <span class="dateOfTravel"></span>
                                     <!-- //Дата-->
                                 </li>
                             </ul>
                         </div>
                             <!-- Подзаголовок -->
-                            <h4 class="mb-3 tour-subtitle"></h4>
+                            <h4 class="mb-3"></h4>
                             <!-- //Подзаголовок -->
                       
                             <!-- Описание прогарммы тура -->
-                            <p class="txt-alg-jf tour-program-description-1">
+                            <p class="txt-alg-jf">
                               Описание прогарммы тура
                             </p> 
-                            <p class="txt-alg-jf tour-program-description-2">
+                            <p class="txt-alg-jf">
                               Описание прогарммы тура
                             </p>
-                            <p class="txt-alg-jf tour-program-description-3">
+                            <p class="txt-alg-jf">
                               Описание прогарммы тура
                             </p>
                             <!-- Описание прогарммы тура -->
@@ -163,19 +163,19 @@
 
                             <span class="fa fa-info-circle"></span><strong> Информируем</strong><br /><br />
                             <span class="txt-alg-jf">
-                                Цена билета до <strong class="ticket-price-before-Date-1"></strong>: взрослые 
-                                 <strong class="adult-ticket-price-Date-1"></strong> грн.,
+                                Цена билета до <u> </u>: взрослые 
+                                 <strong> </strong> грн.,
                                    дети  от 3 до 12 лет 
-                                 <strong>-Цена- грн.</strong>;
+                                 <strong> </strong>грн.;
 				  дети от 13 до 17 лет
-                                  <strong>-Цена- грн.</strong>;   
+                                  <strong>  </strong>грн.;   
                                  <hr>
-                                 С -Дата- : взрослые 
-                                 <strong>-Цена- грн.</strong>, 
+                                 С <u> </u>: взрослые 
+                                 <strong> </strong>грн., 
                                    дети от 3 до 12 лет
-                                 <strong>-Цена- грн.</strong>;
+                                 <strong> </strongгрн.>;
 				    дети от 13 до 17 лет
-                                 <strong>-Цена- грн.</strong>;
+                                 <strong> </strong>грн.
                                  <hr>
                                  <i>*Примечание </i>
 				    до 3х бесплатно (без предоставления отдельного места в транспорте)
@@ -185,8 +185,8 @@
                       
                         <!-- Стоимость, Продолжительность -->
                         <ul class="listing">
-                            <li><span class="fa fa-tags mr-2"></span> Стоимость: <span class="tour-cost"></span></li>
-                            <li><span class="fa fa-clock-o mr-2"></span> Продолжительность: <span class="tour-duration"></span></li>
+                            <li><span class="fa fa-tags mr-2"></span> Стоимость: <span> </span></li>
+                            <li><span class="fa fa-clock-o mr-2"></span> Продолжительность: <span> </span></li>
                         </ul>
                         <!-- //Стоимость, Продолжительность -->
 
@@ -884,35 +884,6 @@
         }, 1500)
     </script>
 
-    <script>
-	    //Название тура
-	    document.querySelector('.tour-title').innerText = 'Название its тура';
-	    //Ссылка на картинку
-	    document.querySelector('.tour-picture').src = './images/Volnogorsk-Maldives/inside-Volnogorsk-Maldives.jpg';
-	    //Дата тура
-	    document.querySelector('.tour-date').innerText = 'Дата тура';
-	    //Подзаголовок
-	    document.querySelector('.tour-subtitle').innerText = 'Подзаголовок';
-	    //Описание прогарммы тура
-	    document.querySelector('.tour-program-description-1').innerText = 'Описание прогарммы тура-1';
-	    document.querySelector('.tour-program-description-2').innerText = 'Описание прогарммы тура-2';
-	    document.querySelector('.tour-program-description-3').innerText = 'Описание прогарммы тура-3';
-	    
-	    //! Информируем
-	    //Цена билета до (Дата)
-	    document.querySelector('.ticket-price-before-Date-1').innerText = 'Дата';
-	    //Взрослые билета (Цена)
-	    document.querySelector('.adult-ticket-price-Date-1').innerText = '$-Цена';
-	    //***
-	    
-	    //Стоимость
-	    document.querySelector('.tour-cost').innerText = '$-Стоимость';
-	    //Продолжительность
-	    document.querySelector('.tour-duration').innerText = 'Продолжительность';
-	    
-	    
-	     
-    </script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-const name = prompt('Введите пароль');
+const name = prompt('Введите пароль:');
 
 if (name == "1111") {
      window.onload;

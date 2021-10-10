@@ -9,3 +9,4 @@ if (password == "1111") {
       window.location.href = 'index.html';
   
 }
+

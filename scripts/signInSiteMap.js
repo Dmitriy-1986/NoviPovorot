@@ -1,8 +1,8 @@
 const name = prompt('Введите пароль:');
 
 if (name == "1111") {
-     //window.onload;
-      alert('Приветствую на карте сайта!');
+     window.onload;
+     // alert('Приветствую на карте сайта!');
   
 } else {
   

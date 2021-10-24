@@ -12,6 +12,7 @@
     <!-- Описание -->
     <meta name="description" content="Туры выходного дня 'Новый поворот', Описание  ">
     <!-- //Описание -->
+	
     <!-- Ключевые слова -->
     <meta name="keywords"
         content="Запорожье, Новый Поворот Запорожье, Путешествия, Туризм, Ключевые слова " />
@@ -31,13 +32,11 @@
     <link rel="shortcut icon" href="./images/map-signs-solid.svg" />
     <!--//favicon.ico-->
   
-    <!-- css files -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+  
+    <link href="css/style.css" rel='stylesheet' type='text/css'><!-- custom css -->
     <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
-    <!-- //css files -->
 
     <!-- google fonts -->
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
@@ -109,18 +108,24 @@
                             <li class="breadcrumb-item"><a class="text-primary" href="index.html">Главная</a></li>
                             <li class="breadcrumb-item"><a class="text-primary" href="packages.html">Туры</a></li>
                             <!--<li class="breadcrumb-item"><a class="text-primary" href="packages-page-two.html">Туры, стр.2</a></li>-->
-                          <!-- Название тура -->
-                            <li class="breadcrumb-item active" aria-current="page"></li>
-                          <!-- //Название тура -->
+                          
+                            <li class="breadcrumb-item active" aria-current="page"> 
+				    Название тура
+			    </li>
+                         
                         </ol>
                     </nav>
                 </div>
                 <!-- //Хлебные крошки -->
 
                 <div class="col-lg-8 col-xl-9 main-title-text">
+			
                     <!-- Заголовок -->
-                    <h3 class="title"></h3>
+                    <h3 class="title">
+			Заголовок
+		    </h3>
                     <!-- //Заголовок -->
+			
                 </div>
                 <div class="col-lg-8 col-xl-9 blog-left-sub">
                     
@@ -133,13 +138,18 @@
                             <ul class="listing mt-3">
                                 <li>
                                     <!-- Дата -->
-                                    <span class="fa fa-calendar mr-2"></span>Дата: <span class="dateOfTravel"></span>
+                                    <span class="fa fa-calendar mr-2"></span>Дата:&nbsp;<span class="dateOfTravel">
+											Здесь Должна Быть Дата!!!
+										        </span>
                                     <!-- //Дата-->
                                 </li>
                             </ul>
                         </div>
+			    
                             <!-- Подзаголовок -->
-                            <h4 class="mb-3"></h4>
+                            <h4 class="mb-3">
+			    	Здесь Должен Быть Подзаголовок!!!
+			    </h4>
                             <!-- //Подзаголовок -->
                       
                             <!-- Описание прогарммы тура -->
@@ -841,15 +851,10 @@
     <script src="./scripts/scriptSmoothScrolling.js"></script>
     <!-- move top -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="./libs/jquery-3.5.1.js"></script>
+    <script src="./libs/popper.min.js"></script>
+    <script src="./libs/bootstrap.min.js"></script>
+	
     <script>
         /* var myCarousel = document.querySelector('#myCarousel');
          var carousel = new bootstrap.Carousel(myCarousel);

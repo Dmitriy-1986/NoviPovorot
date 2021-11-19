@@ -3,27 +3,27 @@
 
 <head>
      <!-- Заголовок -->
-    <title> Заголовок тура | Новый поворот</title>
+    <title> Дай лапу | Новый поворот </title>
      <!-- //Заголовок -->
   
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
   
     <!-- Описание -->
-    <meta name="description" content="Туры выходного дня 'Новый поворот', Описание  ">
+    <meta name="description" content="Туры выходного дня 'Новый поворот', Экскурсия в благотворительный фонд помощи животным...  ">
     <!-- //Описание -->
 	
     <!-- Ключевые слова -->
     <meta name="keywords"
-        content="Запорожье, Новый Поворот Запорожье, Путешествия, Туризм, Ключевые слова " />
+        content="Запорожье, Новый Поворот Запорожье, Путешествия, Туризм, Дай лапу, Благотворительный центр, экскурсии Запорожье, Запорожье экскурсии " />
     <!-- //Ключевые слова -->
   
     <!-- Open Graph -->
-    <meta property="og:title" content="Заголовок">
-    <meta property="og:description" content="Описание" />
+    <meta property="og:title" content="Дай лапу">
+    <meta property="og:description" content="Экскурсия в благотворительный фонд помощи животным..." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="Ссылка на страницу" />
-    <meta property="og:image" content="Картинка">
+    <meta property="og:url" content="https://novipovorot.pp.ua/page-give-a-paw" />
+    <meta property="og:image" content="images/give-a-paw/inside-give-a-paw.jpg">
     <!-- //Open Graph -->
 
     <link href="css/SmoothScrolling.css" rel="stylesheet"><!-- SmoothScrolling.css -->
@@ -110,7 +110,7 @@
                             <!--<li class="breadcrumb-item"><a class="text-primary" href="packages-page-two.html">Туры, стр.2</a></li>-->
                           
                             <li class="breadcrumb-item active" aria-current="page"> 
-				    Название тура
+				   Дай лапу
 			    </li>
                          
                         </ol>
@@ -122,7 +122,7 @@
 			
                     <!-- Заголовок -->
                     <h3 class="title">
-			Заголовок
+			Дай лапу
 		    </h3>
                     <!-- //Заголовок -->
 			
@@ -130,7 +130,7 @@
                 <div class="col-lg-8 col-xl-9 blog-left-sub">
                     
                     <!-- Картинка -->
-                    <img src="Ссылка на картинку" alt="Картинка" class="img-fluid">  
+                    <img src="images/give-a-paw/inside-give-a-paw.jpg" alt="Картинка" class="img-fluid">  
                     <!-- //Картинка -->
                     
                     <div class="blog-two-two">
@@ -139,7 +139,7 @@
                                 <li>
                                     <!-- Дата -->
                                     <span class="fa fa-calendar mr-2"></span>Дата:&nbsp;<span class="dateOfTravel">
-											Здесь Должна Быть Дата!!!
+											28 ноября 2021
 										        </span>
                                     <!-- //Дата-->
                                 </li>
@@ -148,19 +148,19 @@
 			    
                             <!-- Подзаголовок -->
                             <h4 class="mb-3">
-			    	Здесь Должен Быть Подзаголовок!!!
+			    	Экскурсия в благотворительный фонд помощи животным
 			    </h4>
                             <!-- //Подзаголовок -->
                       
                             <!-- Описание прогарммы тура -->
                             <p class="txt-alg-jf">
-                              Описание прогарммы тура
+                             Делать добрые дела это Важно! Мы узнаем как живет приют Дай Лапу, истории их питомцев.
                             </p> 
                             <p class="txt-alg-jf">
-                              Описание прогарммы тура
+                            Выгуляем собачек и просто с пользой проведем выходной!  
                             </p>
                             <p class="txt-alg-jf">
-                              Описание прогарммы тура
+                            С собой животным можно брать корм, одежду, медикаменты или просто мат.помощь... 
                             </p>
                             <!-- Описание прогарммы тура -->
                      </div>
@@ -173,30 +173,22 @@
 
                             <span class="fa fa-info-circle"></span><strong> Информируем</strong><br /><br />
                             <span class="txt-alg-jf">
-                                Цена билета до <u> </u>: взрослые 
-                                 <strong> </strong> грн.,
-                                   дети  от 3 до 12 лет 
-                                 <strong> </strong>грн.;
-				  дети от 13 до 17 лет
-                                  <strong>  </strong>грн.;   
-                                 <hr>
-                                 С <u> </u>: взрослые 
-                                 <strong> </strong>грн., 
-                                   дети от 3 до 12 лет
-                                 <strong> </strongгрн.>;
-				    дети от 13 до 17 лет
-                                 <strong> </strong>грн.
-                                 <hr>
+                                Орг.взрос <u> </u>: взрослые 
+                                 <strong> 50 </strong> грн.,
+                                   дети  от 5 до 12 лет 
+                                 <strong> 30 </strong>грн.;
+				 <hr>
                                  <i>*Примечание </i>
-				    до 3х бесплатно (без предоставления отдельного места в транспорте)
+				    до 6ти лет без орг.взносов.
+				  С собой животным можно брать корм, одежду, медикаменты или просто мат.помощь...   
                             </span>
                         </div>
                         <!-- //Информируем -->
                       
                         <!-- Стоимость, Продолжительность -->
                         <ul class="listing">
-                            <li><span class="fa fa-tags mr-2"></span> Стоимость: <span> </span></li>
-                            <li><span class="fa fa-clock-o mr-2"></span> Продолжительность: <span> </span></li>
+                            <li><span class="fa fa-tags mr-2"></span> Оргвзнос: <span> 50 грн </span></li>
+                            <li><span class="fa fa-clock-o mr-2"></span> Продолжительность: <span> 1 День </span></li>
                         </ul>
                         <!-- //Стоимость, Продолжительность -->
 
@@ -270,21 +262,16 @@
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         
-                                        <p class="txt-alg-jf"> <strong> Время </strong>
-                                         Описание
+                                        <p class="txt-alg-jf"> <strong> 13:00 </strong>
+                                         сбор группы ост. 12 апреля (как ехать на Правый берег Запорожье) ,небольшая прогулка к месту 
+					 начала экскурсии после минутки позитива. 
                                          </p>
-                                         <p class="txt-alg-jf"> <strong> Время </strong>
-                                         Описание
+                                         <p class="txt-alg-jf"> <strong> 13:10 </strong>
+                                        Мы услышим истории собачек из приюта, узнаем как они живут и чем им можна помочь. Выгуляем их в 
+					прекрасном парке рядом и сделаем добрые дела вместе!
                                          </p>
-                                         <p class="txt-alg-jf"> <strong> Время </strong>
-                                         Описание
-                                         </p>
-                                        <p class="txt-alg-jf"> <strong> Время </strong>
-                                         Описание
-                                         </p>
-                                        <p class="txt-alg-jf"><strong> 18:00 </strong>
-                                            Мы уже в Запорожье, довольные возвращаемся домой чтоб поделиться 
-                                            впечатлениями с друзьями и близкими (но еще лучше их взять с собой).<br>
+                                        <p class="txt-alg-jf"><strong> 15:00 </strong>
+                                            Отправляемся домой, делиться позитивом с друзями и близкими.  (но еще лучше их взять с собой).<br>
                                             Выкладываем сториз и посты в 
                                           
 <!-- В ссылках соц.сетей, необходимо исправить ссылку на данную страницу -->
@@ -363,7 +350,7 @@
                                             </a>,
                                             <!-- Facebook -->
                                             <a title="Facebook"
-                                                href="https://www.facebook.com/sharer/sharer.php?u=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://www.facebook.com/sharer/sharer.php?u=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank" rel="noopener">
                                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -386,13 +373,13 @@
                                           
                                             <!-- //Facebook -->
                                             <a title="Facebook"
-                                                href="https://www.facebook.com/sharer/sharer.php?u=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://www.facebook.com/sharer/sharer.php?u=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank" rel="noopener">
                                                 Facebook
                                             </a>,
                                             <!-- Telegram -->
                                             <a title="Telegram"
-                                                href="https://t.me/share/url?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://t.me/share/url?url=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank">
                                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -493,7 +480,7 @@
                                                 </svg>
                                             </a>
                                             <a title="Telegram"
-                                                href="https://t.me/share/url?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://t.me/share/url?url=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank">
                                                 Telegram
                                             </a>,
@@ -503,7 +490,7 @@
                                           
                                             <!-- Twitter -->
                                             <a title="Twitter"
-                                                href="https://twitter.com/intent/tweet?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://twitter.com/intent/tweet?url=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank">
                                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -593,7 +580,7 @@
 
                                             </a>
                                             <a title="Twitter"
-                                                href="https://twitter.com/intent/tweet?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="https://twitter.com/intent/tweet?url=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank">
                                                 Twitter
                                             </a>,
@@ -603,13 +590,13 @@
                                           
                                           <!-- Viber -->
                                             <a title="Viber"
-                                                href="viber://forward?text=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="viber://forward?text=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank">
                                                 <img src="images/viber.jpg" alt="viber" height="25px"
                                                     style="margin-top:-17px;">
                                             </a>
                                             <a title="Viber"
-                                                href="viber://forward?text=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                                href="viber://forward?text=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank">
                                                 Viber
                                             </a>,
@@ -618,12 +605,12 @@
   <!-- В ссылках соц.сетей, необходимо исправить ссылку на данную страницу -->
                                           
                                             <!-- VK -->
-                                            <a href="https://vk.com/share.php?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                            <a href="https://vk.com/share.php?url=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank">
                                                 <img src="images/vk.jpg" alt="vk" height="25px"
                                                     style="margin-top:-17px;">
                                             </a>
-                                            <a href="https://vk.com/share.php?url=https://novipovorot.pp.ua/page-Roses-Farm-Waterfall.html"
+                                            <a href="https://vk.com/share.php?url=https://novipovorot.pp.ua/page-give-a-paw.html"
                                                 target="_blank">
                                                 VK
                                             </a>
@@ -645,42 +632,7 @@
                         </div>
                         <!-- //Описание экскурсии -->
 
-                        <!-- В стоимость входит/невходит -->
-                        <div class="alert alert-success">
-                            <h5 class="alert-heading">В стоимость входит:</h5>
-                            <ul class="list-group list-group-flush">
-                              
-                                <li class="list-group-item list-group-item-success">
-                                   Описание
-                                </li>
-                                <li class="list-group-item list-group-item-success">
-                                   Описание 
-                                </li>
-                                 <li class="list-group-item list-group-item-success">
-                                     Описание 
-				 </li>
-				    
-                            </ul>
-                        </div>
-
-                        <div class="alert alert-danger">
-                            <h5 class="alert-heading">В стоимость не входит:</h5>
-                            <ul class="list-group list-group-flush">
-                              
-                                <li class="list-group-item list-group-item-danger ">
-                                  Описание
-                                </li>
-                                <li class="list-group-item list-group-item-danger ">
-                                  Описание
-                                </li>
-                                <li class="list-group-item list-group-item-danger ">
-                                  Описание
-                                </li>
-                              
-                            </ul>
-                        </div>
-                       <!-- В стоимость входит/невходит -->
-              
+                                     
                         <hr>
                         <p>
                             Тексты подсказок:

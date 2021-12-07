@@ -122,7 +122,7 @@
                 <div class="col-lg-8 col-xl-9 main-title-text">
 			
                     <!-- Заголовок -->
-                    <h3 class="title">
+                    <h3 class="title titleTravel">
 			 Карпаты - 2022
 		    </h3>
                     <!-- //Заголовок -->
@@ -1052,6 +1052,13 @@
         let travel = document.querySelector('.dateOfTravel');
         setInterval(function () {
             travel.classList.toggle('text-danger');
+        }, 1500)
+    </script>
+
+   <script>
+        let titleTravel = document.querySelector('.titleTravel');
+        setInterval(function () {
+            titleTravel.classList.toggle('text-primary');
         }, 1500)
     </script>
 

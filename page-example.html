@@ -34,8 +34,18 @@
 		{program: 'Описание3'}, 
 		{program: 'Описание4'}
 	   ];	
-		
-		
+	
+	  //Информируем
+          let inform = [
+		{informPrice: 'Цена билета до ...: взрослые ... грн., дети от 3 до 12 лет ... грн., дети от 13 до 17 лет ... грн.'}, 
+	        {informPrice: 'С ...: взрослые ... грн., дети от 3 до 12 лет ... грн.; дети от 13 до 17 лет ... грн.'}, 
+		{informPrice: 'С ...: взрослые ... грн., дети от 3 до 12 лет ... грн.; дети от 13 до 17 лет ... грн.'}
+	   ];
+	
+	   //Стоимость
+	   let price = "1000 Грн.";
+	   //Продолжительность
+	   let duration	= "1 День";
 		
 	    document.write(
 		    '<title>' + title + '| Новый поворот</title>'
@@ -203,30 +213,21 @@
 
                             <span class="fa fa-info-circle"></span><strong> Информируем</strong><br /><br />
                             <span class="txt-alg-jf">
-                                Цена билета до <u> </u>: взрослые 
-                                 <strong> </strong> грн.,
-                                   дети  от 3 до 12 лет 
-                                 <strong> </strong>грн.;
-				  дети от 13 до 17 лет
-                                  <strong>  </strong>грн.;   
-                                 <hr>
-                                 С <u> </u>: взрослые 
-                                 <strong> </strong>грн., 
-                                   дети от 3 до 12 лет
-                                 <strong> </strong>грн.;
-				    дети от 13 до 17 лет
-                                 <strong> </strong>грн.
-                                 <hr>
-                                 <i>*Примечание </i>
-				    до 3х бесплатно (без предоставления отдельного места в транспорте)
+				<script>
+					for(var i = 0; i < inform.length; i++) {
+					     document.write(
+						     inform[i].informPrice + '<hr>');
+					}
+		                </script>
+                                <i>*Примечание </i> до 3х бесплатно (без предоставления отдельного места в транспорте)
                             </span>
                         </div>
                         <!-- //Информируем -->
                       
                         <!-- Стоимость, Продолжительность -->
                         <ul class="listing">
-                            <li><span class="fa fa-tags mr-2"></span> Стоимость: <span> </span></li>
-                            <li><span class="fa fa-clock-o mr-2"></span> Продолжительность: <span> </span></li>
+                            <li><span class="fa fa-tags mr-2"></span> Стоимость: <span><script>document.write(price);</script></span></li>
+                            <li><span class="fa fa-clock-o mr-2"></span> Продолжительность: <span><script>document.write(title);</script></span></li>
                         </ul>
                         <!-- //Стоимость, Продолжительность -->
 

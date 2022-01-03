@@ -56,6 +56,26 @@
 		{time: '18:00', description: 'Мы уже в Запорожье, довольные возвращаемся домой чтоб поделиться впечатлениями с друзьями и близкими (но еще лучше их взять с собой).'}
 	   ];
 		
+	  //В стоимость входит
+	  let includedInThePrice = [
+		{includePrice: 'Описание1'}, 
+	        {includePrice: 'Описание2'}, 
+		{includePrice: 'Описание3'}, 
+		{includePrice: 'Описание4'}
+	   ];
+		
+	  //В стоимость не входит
+	  let priceDoesNotInclude = [
+		{doesNotIncludePrice: 'Описание1'}, 
+	        {doesNotIncludePrice: 'Описание2'}, 
+		{doesNotIncludePrice: 'Описание3'}, 
+		{doesNotIncludePrice: 'Описание4'}
+	   ];
+		
+	  //Тексты подсказок
+	  let helpTexts = "";
+		
+		
 	</script> 
 	
 	<script>	
@@ -396,35 +416,25 @@
                         <!-- В стоимость входит/невходит -->
                         <div class="alert alert-success">
                             <h5 class="alert-heading">В стоимость входит:</h5>
-                            <ul class="list-group list-group-flush">
-                              
-                                <li class="list-group-item list-group-item-success">
-                                   Описание
-                                </li>
-                                <li class="list-group-item list-group-item-success">
-                                   Описание 
-                                </li>
-                                 <li class="list-group-item list-group-item-success">
-                                     Описание 
-				 </li>
-				    
+                            <ul class="list-group list-group-flush">                             
+			       <script>
+			          for(var i = 0; i < includedInThePrice.length; i++) {
+				       document.write(' <li class="list-group-item list-group-item-success">' 
+						     + includedInThePrice[i].includePrice + '</li>');
+				  }
+		                </script>   
                             </ul>
                         </div>
 
                         <div class="alert alert-danger">
                             <h5 class="alert-heading">В стоимость не входит:</h5>
                             <ul class="list-group list-group-flush">
-                              
-                                <li class="list-group-item list-group-item-danger ">
-                                  Описание
-                                </li>
-                                <li class="list-group-item list-group-item-danger ">
-                                  Описание
-                                </li>
-                                <li class="list-group-item list-group-item-danger ">
-                                  Описание
-                                </li>
-                              
+                              <script>
+			          for(var i = 0; i < priceDoesNotInclude.length; i++) {
+				       document.write(' <li class="list-group-item list-group-item-danger ">' 
+						     + priceDoesNotInclude[i].doesNotIncludePrice + '</li>');
+				  }
+		                </script> 
                             </ul>
                         </div>
                        <!-- В стоимость входит/невходит -->

@@ -44,9 +44,21 @@
 	
 	   //Стоимость
 	   let price = "1000 Грн.";
+		
 	   //Продолжительность
 	   let duration	= "1 День";
 		
+	   //Описание тура
+	   let descTours = [
+		{time: '09:01', description: 'Описание1'}, 
+		{time: '09:02', description: 'Описание2'}, 
+		{time: '09:03', description: 'Описание3'}, 
+		{time: '18:00', description: 'Мы уже в Запорожье, довольные возвращаемся домой чтоб поделиться впечатлениями с друзьями и близкими (но еще лучше их взять с собой).'}
+	   ];
+		
+	</script> 
+	
+	<script>	
 	    document.write(
 		    '<title>' + title + '| Новый поворот</title>'
 		    + '<meta name="description" content="' + descriptionHead + '">'
@@ -60,7 +72,6 @@
 	    );
 
 	</script> 
-
     <link href="css/SmoothScrolling.css" rel="stylesheet"><!-- SmoothScrolling.css -->
 
     <!--favicon.ico-->
@@ -318,22 +329,14 @@
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
                                     <div class="card-body">
-<!-- Описание экскурсии -->					    
-					<script>
-						//Описание
-						var descTours = [
-							{time: '09:01', description: 'Описание1'}, 
-							{time: '09:02', description: 'Описание2'}, 
-							{time: '09:03', description: 'Описание3'}, 
-							{time: '18:00', description: 'Мы уже в Запорожье, довольные возвращаемся домой чтоб поделиться впечатлениями с друзьями и близкими (но еще лучше их взять с собой).'}
-						];
-
+					<!-- Описание экскурсии -->					    
+					<script>						
 						for(var i = 0; i < descTours.length; i++) {
 						    document.write('<p class="txt-alg-jf"><strong>' 
 								   + descTours[i].time + '</strong>' 
 								   + '&nbsp;' + descTours[i].description + '</p>');
 						}									    
-// Поделиться в социальных сетях                                             
+					    // Поделиться в социальных сетях                                             
 					    document.write(
 						 '<p class="txt-alg-jf">'
                                            	 + 'Выкладываем сториз и посты в социальных сетях: '

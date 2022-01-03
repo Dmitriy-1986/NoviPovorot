@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-	<script>
-	    let title = "Title тура | Новый поворот";	
-	     //Заголовок 
-	    document.write('<title>' + title + '</title>');
-	      //Заголовок 
-	</script> 
-	
+<head>	
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-  
-    <!-- Описание -->
-    <meta name="description" content="Туры выходного дня 'Новый поворот', Описание  ">
-    <!-- //Описание -->
 	
-    <!-- Ключевые слова -->
-    <meta name="keywords"
-        content="Запорожье, Новый Поворот Запорожье, Путешествия, Туризм, Ключевые слова " />
-    <!-- //Ключевые слова -->
-  
-    <!-- Open Graph -->
-    <meta property="og:title" content="Заголовок">
-    <meta property="og:description" content="Описание" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="Ссылка на страницу" />
-    <meta property="og:image" content="Картинка">
-    <!-- //Open Graph -->
+	<script>
+	    //Заголовок
+	    let title = "Title тура ";	
+		
+	    // Описание 
+	    let descriptionHead = "Туры выходного дня - Новый поворот, ОПИСАНИЕ  ";
+		
+	    //Ключевые слова
+	    let keywords = "Запорожье, Новый Поворот Запорожье, Путешествия, Туризм, Ключевые слова ";
+		
+	    //Cсылкa Tура 
+	    let linkPage = "https://novipovorot.pp.ua/page-example.html";
+		
+	    //Картинка
+	    let imgInTour = "Ссылка на картинку";
+		
+	    //Дата тура
+	    let dateTour = "";
+		
+	    //Подзаголовок
+	    let subtitle = "Подзаголовок";
+		
+	   //Описание прогарммы тура
+	   let tourProgramDescription = [
+		{program: 'Описание1'}, 
+	        {program: 'Описание2'}, 
+		{program: 'Описание3'}, 
+		{program: 'Описание4'}
+	   ];	
+		
+		
+		
+	    document.write(
+		    '<title>' + title + '| Новый поворот</title>'
+		    + '<meta name="description" content="' + descriptionHead + '">'
+  		    + '<meta name="keywords" content="' + keywords + '" />'
+		    //Open Graph
+		    + '<meta property="og:title" content="' + title + '">'
+		    + '<meta property="og:description" content="' + descriptionHead + '" />'
+   		    + '<meta property="og:type" content="website" />'
+   		    + '<meta property="og:url" content="' + linkPage + '" />'
+    		    + '<meta property="og:image" content="' + imgInTour + '">'
+	    );
+
+	</script> 
 
     <link href="css/SmoothScrolling.css" rel="stylesheet"><!-- SmoothScrolling.css -->
 
@@ -111,11 +133,11 @@
                             <li class="breadcrumb-item"><a class="text-primary" href="index.html">Главная</a></li>
                             <li class="breadcrumb-item"><a class="text-primary" href="packages.html">Туры</a></li>
                             <!--<li class="breadcrumb-item"><a class="text-primary" href="packages-page-two.html">Туры, стр.2</a></li>-->
-                          
-                            <li class="breadcrumb-item active" aria-current="page"> 
-				    Название тура
-			    </li>
-                         
+                            <script>
+                    		document.write(
+			     	   '<li class="breadcrumb-item active" aria-current="page">' + title + '</li>' 
+			     	);
+		            </script>
                         </ol>
                     </nav>
                 </div>
@@ -123,49 +145,56 @@
 
                 <div class="col-lg-8 col-xl-9 main-title-text">
 			
-                    <!-- Заголовок -->
-                    <h3 class="title">
-			Заголовок
-		    </h3>
+                   <!-- Заголовок -->
+		   <script>
+                    document.write(
+		      '<h3 class="title">' + title + '</h3>' 
+	    	     );
+		    </script>
                     <!-- //Заголовок -->
 			
                 </div>
                 <div class="col-lg-8 col-xl-9 blog-left-sub">
                     
                     <!-- Картинка -->
-                    <img src="Ссылка на картинку" alt="Картинка" class="img-fluid">  
+                    <script>
+                    document.write(
+		      '<img src="' + imgInTour + '" alt="Картинка" class="img-fluid">' 
+	    	     );
+		    </script>
                     <!-- //Картинка -->
-                    
+		
                     <div class="blog-two-two">
                         <div class="blog-date-time mb-2">
                             <ul class="listing mt-3">
                                 <li>
                                     <!-- Дата -->
-                                    <span class="fa fa-calendar mr-2"></span>Дата:&nbsp;<span class="dateOfTravel">
-											Здесь Должна Быть Дата!!!
-										        </span>
+                                    <span class="fa fa-calendar mr-2"></span>Дата:&nbsp;
+					<script>
+					    document.write(
+					      '<span class="dateOfTravel">' + dateTour + '</span>' 
+					     );
+					</script>												       
                                     <!-- //Дата-->
                                 </li>
                             </ul>
                         </div>
 			    
                             <!-- Подзаголовок -->
-                            <h4 class="mb-3">
-			    	Здесь Должен Быть Подзаголовок!!!
-			    </h4>
+			    <script>
+				 document.write(
+					'<h4 class="mb-3">' + subtitle + '</h4>' 
+				);
+			    </script>
                             <!-- //Подзаголовок -->
                       
                             <!-- Описание прогарммы тура -->
-                            <p class="txt-alg-jf">
-                              Описание прогарммы тура
-                            </p> 
-                            <p class="txt-alg-jf">
-                              Описание прогарммы тура
-                            </p>
-                            <p class="txt-alg-jf">
-                              Описание прогарммы тура
-                            </p>
-                            <!-- Описание прогарммы тура -->
+			    <script>
+			        for(var i = 0; i < tourProgramDescription.length; i++) {
+				     document.write('<p class="txt-alg-jf">' 
+						     + tourProgramDescription[i].program + '</p>');
+				}
+		            </script>
                      </div>
                     
                      <hr>
@@ -304,13 +333,8 @@
 						    document.write('<p class="txt-alg-jf"><strong>' 
 								   + descTours[i].time + '</strong>' 
 								   + '&nbsp;' + descTours[i].description + '</p>');
-						}
-				
-					    
-// Поделиться в социальных сетях   
-                                            //Cсылкa Tура 
-					    let linkPage = "https://novipovorot.pp.ua/page-example.html";
-
+						}									    
+// Поделиться в социальных сетях                                             
 					    document.write(
 						 '<p class="txt-alg-jf">'
                                            	 + 'Выкладываем сториз и посты в социальных сетях: '

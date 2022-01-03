@@ -1,5 +1,6 @@
  let allTours = [
-	 {link: ' ', linkName: ' '},
+	 {link: 'https://novipovorot.pp.ua/page-Kharkiv-Christmas.html', linkName: 'Харьков Рождество'},
+	 {link: 'https://novipovorot.pp.ua/page-Arabat-baths.html', linkName: 'Арабатские Термы И Розовое Озеро'},
 	 {link: 'https://novipovorot.pp.ua/page-Kharkiv-Poltava-Christmas.html', linkName: 'Рождество Харьков И Полтава'},
 	 {link: 'https://novipovorot.pp.ua/page-Carpathians-2022.html', linkName: 'Карпаты - 2022'},
 	 {link: 'https://novipovorot.pp.ua/page-dnipro-new-year.html', linkName: 'Новогодние Огни Днепра'},

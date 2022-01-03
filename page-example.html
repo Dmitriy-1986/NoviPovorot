@@ -293,13 +293,14 @@
 							{time: '09:01', description: 'Описание1'}, 
 							{time: '09:02', description: 'Описание2'}, 
 							{time: '09:03', description: 'Описание3'}, 
-							{time: '09:04', description: 'Описание4'}
+							{time: '18:00', description: 'Мы уже в Запорожье, довольные возвращаемся домой чтоб'
+							 'поделиться впечатлениями с друзьями и близкими (но еще лучше их взять с собой).'}
 						];
 
 						for(var i = 0; i < descTours.length; i++) {
 						    document.write('<p class="txt-alg-jf"><strong>' 
 								   + descTours[i].time + '</strong>' 
-								   + descTours[i].description + '</p>');
+								   + '&nbsp;' + descTours[i].description + '</p>');
 						}
 					</script>
                                        <!-- <p class="txt-alg-jf"> <strong> Время </strong>
@@ -315,15 +316,12 @@
                                          Описание
                                          </p>-->
 					    
-                                        <p class="txt-alg-jf"><strong> 18:00 </strong>
-                                            Мы уже в Запорожье, довольные возвращаемся домой чтоб поделиться 
-                                            впечатлениями с друзьями и близкими (но еще лучше их взять с собой).<br>
-                                            Выкладываем сториз и посты в                                          
-                                          
-                                        <!-- Поделиться в социальных сетях -->
+					<!-- Поделиться в социальных сетях -->   
+                                        <p class="txt-alg-jf">
+                                            Выкладываем сториз и посты в социальных сетях: 
                                         <script>
-                                            //Вставить ссылку тура с которым поделиться
-                                            let linkPage = "https://novipovorot.pp.ua/page-example.html";
+						
+                                            let linkPage = "https://novipovorot.pp.ua/page-example.html"; //Cсылкa Tура 
                                           
                                             document.write(
                                                  //Instagram

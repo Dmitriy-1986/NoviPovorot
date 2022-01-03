@@ -287,22 +287,21 @@
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
                                     <div class="card-body">
-                                        <script>
-						//Тест
-						var descTours = [
-							{time: '09:01', description: 'Описание1'}, 
-							{time: '09:02', description: 'Описание2'}, 
-							{time: '09:03', description: 'Описание3'}, 
-							{time: '18:00', description: 'Мы уже в Запорожье, довольные возвращаемся домой чтоб'
-							 'поделиться впечатлениями с друзьями и близкими (но еще лучше их взять с собой).'}
-						];
+<script>
+	//Тест
+	var descTours = [
+		{time: '09:01', description: 'Описание1'}, 
+		{time: '09:02', description: 'Описание2'}, 
+		{time: '09:03', description: 'Описание3'}, 
+		{time: '18:00', description: 'Мы уже в Запорожье, довольные возвращаемся домой чтоб поделиться впечатлениями с друзьями и близкими (но еще лучше их взять с собой).'}
+	];
 
-						for(var i = 0; i < descTours.length; i++) {
-						    document.write('<p class="txt-alg-jf"><strong>' 
-								   + descTours[i].time + '</strong>' 
-								   + '&nbsp;' + descTours[i].description + '</p>');
-						}
-					</script>
+	for(var i = 0; i < descTours.length; i++) {
+	    document.write('<p class="txt-alg-jf"><strong>' 
+			   + descTours[i].time + '</strong>' 
+			   + '&nbsp;' + descTours[i].description + '</p>');
+	}
+</script>
                                        <!-- <p class="txt-alg-jf"> <strong> Время </strong>
                                          Описание
                                          </p>
@@ -319,47 +318,47 @@
 					<!-- Поделиться в социальных сетях -->   
                                         <p class="txt-alg-jf">
                                             Выкладываем сториз и посты в социальных сетях: 
-                                        <script>
-						
-                                            let linkPage = "https://novipovorot.pp.ua/page-example.html"; //Cсылкa Tура 
-                                          
-                                            document.write(
-                                                 //Instagram
-                                                 '<a title="Instagram" href="https://www.instagram.com/dovgalyv.zp/" target="_blank">'
-                                                 + '<img src="./images/instagram.svg" alt="Instagram" style="vertical-align: top;"  class="pl-1 pr-1">'
-                                                 +'</a>'
-                                                                                       
-                                                //TiKTok
-                                                + '<a title="TiKTok" href="https://www.tiktok.com/" target="_blank">'
-                                                + '<img src="./images/Tiktok.svg" alt="TiKTok" style="vertical-align: top;"  class="pl-1 pr-1">'
-                                                + '</a>'                                            
+<script>
 
-                                                //Facebook                                          
-                                                + '<a title="Facebook"  href="https://www.facebook.com/sharer/sharer.php?u=' + linkPage + '" target="_blank" rel="noopener">'
-                                                + '<img src="./images/facebook.svg" alt="Facebook" style="vertical-align: top;" class="pl-1 pr-1">'                                              
-                                                + '</a>'                                     
-                                        
-                                               //Telegram
-                                                + '<a  title="Telegram"  href="https://t.me/share/url?url=' + linkPage + '" target="_blank" rel="noopener">'
-                                                + '<img src="./images/telegram.svg" alt="Telegram" style="vertical-align: top;" class="pl-1 pr-1">'                                                
-                                                + '</a>'                                     
-                                        
-                                                //Viber                                        
-                                                + '<a  title="Viber"  href="https://twitter.com/intent/tweet?url=' + linkPage + '" target="_blank" rel="noopener">'
-                                                + '<img src="./images/twitter.svg" alt="Twitter" style="vertical-align: top;" class="pl-1 pr-1">'
-                                                + '</a>'                                               
+    let linkPage = "https://novipovorot.pp.ua/page-example.html"; //Cсылкa Tура 
 
-                                                //Viber
-                                                + '<a  title="Viber"  href="viber://forward?text=' + linkPage + '" target="_blank" rel="noopener">'
-                                                + '<img src="./images/viber.jpg" alt="Viber" height="25px" style="vertical-align: top;" class="pl-1 pr-1">'
-                                                + '</a>'
-                                           
-                                                //VK                                         
-                                                + '<a  title="VK"  href="https://vk.com/share.php?url=' + linkPage + '" target="_blank" rel="noopener">'
-                                                + '<img src="images/vk.jpg" alt="VK" height="25px" style="vertical-align: top;" class="pl-1 pr-1">'
-                                                + '</a>'
-                                             );                                        
-                                       </script>
+    document.write(
+	 //Instagram
+	 '<a title="Instagram" href="https://www.instagram.com/dovgalyv.zp/" target="_blank">'
+	 + '<img src="./images/instagram.svg" alt="Instagram" style="vertical-align: top;"  class="pl-1 pr-1">'
+	 +'</a>'
+
+	//TiKTok
+	+ '<a title="TiKTok" href="https://www.tiktok.com/" target="_blank">'
+	+ '<img src="./images/Tiktok.svg" alt="TiKTok" style="vertical-align: top;"  class="pl-1 pr-1">'
+	+ '</a>'                                            
+
+	//Facebook                                          
+	+ '<a title="Facebook"  href="https://www.facebook.com/sharer/sharer.php?u=' + linkPage + '" target="_blank" rel="noopener">'
+	+ '<img src="./images/facebook.svg" alt="Facebook" style="vertical-align: top;" class="pl-1 pr-1">'                                              
+	+ '</a>'                                     
+
+       //Telegram
+	+ '<a  title="Telegram"  href="https://t.me/share/url?url=' + linkPage + '" target="_blank" rel="noopener">'
+	+ '<img src="./images/telegram.svg" alt="Telegram" style="vertical-align: top;" class="pl-1 pr-1">'                                                
+	+ '</a>'                                     
+
+	//Viber                                        
+	+ '<a  title="Viber"  href="https://twitter.com/intent/tweet?url=' + linkPage + '" target="_blank" rel="noopener">'
+	+ '<img src="./images/twitter.svg" alt="Twitter" style="vertical-align: top;" class="pl-1 pr-1">'
+	+ '</a>'                                               
+
+	//Viber
+	+ '<a  title="Viber"  href="viber://forward?text=' + linkPage + '" target="_blank" rel="noopener">'
+	+ '<img src="./images/viber.jpg" alt="Viber" height="25px" style="vertical-align: top;" class="pl-1 pr-1">'
+	+ '</a>'
+
+	//VK                                         
+	+ '<a  title="VK"  href="https://vk.com/share.php?url=' + linkPage + '" target="_blank" rel="noopener">'
+	+ '<img src="images/vk.jpg" alt="VK" height="25px" style="vertical-align: top;" class="pl-1 pr-1">'
+	+ '</a>'
+     );                                        
+</script>
                                             
                                             обязательно отмечаем @dovgalyv.zp, Довгаль Юлия, @novipovorot, 
                                             всем кто отметит +10000 к карму и наша благодарочка ;* 

@@ -4,73 +4,63 @@
 	<script>
 		
 	    //Заголовок
-	    let title = "Title тура ";			
+	    let title = "3 D роспись Зоопарк ";			
 	    // Описание 
-	    let descriptionHead = "Туры выходного дня - Новый поворот, ОПИСАНИЕ  ";		
+	    let descriptionHead = "Туры выходного дня - Новый поворот, Роспись объемных фигурок по самой необычной технике с профессиональным художником!  ";		
 	    //Ключевые слова
-	    let keywords = "Запорожье, Новый Поворот Запорожье, Путешествия, Туризм, Ключевые слова ";		
+	    let keywords = "Запорожье, Новый Поворот Запорожье, Путешествия, Туризм, роспись 3Д фигурок, художественный мастер-класс ";		
 	    //Cсылкa Tура 
-	    let linkPage = "https://novipovorot.pp.ua/page-example.html";		
+	    let linkPage = "https://novipovorot.pp.ua/page-3D-painting.html";		
 	    //Картинка
-	    let imgInTour = "https://picsum.photos/825/473";		
+	    let imgInTour = ".images/3D-painting/inside-3D-painting.jpg";		
 	    //Дата тура
-	    let dateTour = "2022";		
+	    let dateTour = "12 и 13 февраля 2022";		
 	    //Подзаголовок
-	    let subtitle = "Подзаголовок";		
+	    let subtitle = "Супер Зоопарк. Мастер-класс по росписи 3Д фигурок из глины!";		
 	   //Описание прогарммы тура
 	   let tourProgramDescription = [
-		{program: 'Описание1'}, 
-	        {program: 'Описание2'}, 
-		{program: 'Описание3'}, 
-		{program: 'Описание4'}
-	   ];		
+		{program: 'Роспись объемных фигурок по самой необычной технике с профессиональным художником! '}, 
+	        {program: 'Реалистичные 3Д фигурки животных, это игрушка и сувенир. Масса позитива от их росписи обеспечена! Ждем Вас, Ваших родных, близких и друзей на Мк. Подойдет от 2 лет до 100 лет ) Детки и взрослые будут в восторге!  '}	   ];		
 	  //Информируем
           let inform = [
-		{informPrice: 'Цена билета до ...: взрослые ... грн., дети от 3 до 12 лет ... грн., дети от 13 до 17 лет ... грн.'}, 
-	        {informPrice: 'С ...: взрослые ... грн., дети от 3 до 12 лет ... грн.; дети от 13 до 17 лет ... грн.'}, 
-		{informPrice:  '*Примечание: До 5 лет без места в транспорте бесплатно.'}
-	   ];	
+		{informPrice: 'Цена билета при оплате до 31.01 : 250 грн.}, 
+	        {informPrice: 'С 01.02 если будут места: 270 грн.'} 	   ];	
 	   //Стоимость
-	   let price = "1000 Грн.";		
+	   let price = "250 Грн.";		
 	   //Продолжительность
 	   let duration	= "1 День";	
 	   //Описание тура
 	   let descTours = [
-		{time: '09:01', description: 'Описание1'}, 
-		{time: '09:02', description: 'Описание2'}, 
-		{time: '09:03', description: 'Описание3'}, 
-		{time: '18:00', description: 'Мы уже в Запорожье, довольные возвращаемся домой чтоб поделиться впечатлениями с друзьями и близкими (но еще лучше их взять с собой).'}
+		{time: 'Сбор 12 февраля на 12:50 и 13 февраля 15:50', description: 'Шевченка направялемся группой на наш МК.Длительность МК 1,5-2 часа. За это время вы распишите 2 фигурки животных. Получите массу положительных впечатлений и позитива!'}, 
+		{time: '15:00 и 18:00', description: 'Довольные возвращаемся домой чтоб поделиться впечатлениями с друзьями и близкими (но еще лучше их взять с собой).'}
 	   ];		
 	  //В стоимость входит
 	  let includedInThePrice = [
-		{includePrice: 'Описание1'}, 
-	        {includePrice: 'Описание2'}, 
-		{includePrice: 'Описание3'}, 
-		{includePrice: 'Описание4'}
+		{includePrice: 'МК по росписи объемных фигурок 1.5-2 часа под руководством проф.художника Изосудии Палитра;'}, 
+	        {includePrice: '2 красивейшие фигурки которые вы распишете;'}, 
+		{includePrice: 'магнит от Нового поворота'}
 	   ];	
 	  //В стоимость не входит
 	  let priceDoesNotInclude = [
-		{doesNotIncludePrice: 'Описание1'}, 
-	        {doesNotIncludePrice: 'Описание2'}, 
-		{doesNotIncludePrice: 'Описание3'}, 
-		{doesNotIncludePrice: 'Описание4'}
-	   ];	
+		{doesNotIncludePrice: 'Проезд до места встречи группы и обратно'}	   ];	
 	  //Тексты подсказок
 	  let helpTexts = [
 		{badge: 'Запорожье'}, 
 	        {badge: 'Новый Поворот Запорожье'}, 
 		{badge: 'Путешествия'}, 
+		{badge: 'Мк по живописи'}, 
+		{badge: '3 D роспись Зоопарк'}, 
 		{badge: 'Туризм'}
 	   ];
 		
 	</script> 
 
 	<!-- Open Graph -->
-        <meta property="og:title" content="28 Лошадок и Симба">
-        <meta property="og:description" content="Туры выходного дня - Новый поворот, 28 лошадок и зоопарк Симба. Лучший выходной!" />
+        <meta property="og:title" content="3 D роспись Зоопарк">
+        <meta property="og:description" content="Туры выходного дня - Новый поворот, Роспись объемных фигурок по самой необычной технике с профессиональным художником!" />
         <meta property="og:type" content="website" />
-	<meta property="og:image" content="./images/Horses-Zaporizhzhia/inside-horses-zaporizhzhia.jpg">
-        <meta property="og:url" content="https://novipovorot.pp.ua/page-Horses-Zaporizhzhia.html" />
+	<meta property="og:image" content=".images/3D-painting/inside-3D-painting.jpg">
+        <meta property="og:url" content="https://novipovorot.pp.ua/page-3D-painting.html" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">

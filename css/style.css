@@ -452,7 +452,6 @@ li > a:only-child:after { content: ''; }
 .banner-top {
     /*background: url(../images/banner1-min.jpg) no-repeat center;*/
     background: url(../images/Germany1.jpg) no-repeat center;
-	
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
